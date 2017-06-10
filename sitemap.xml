@@ -48,12 +48,12 @@
   </url>
   
   <url>
-    <loc>https://jose-villegas.github.io/contact/index/</loc>
+    <loc>https://jose-villegas.github.io/contact/</loc>
     <lastmod>2016-11-06T13:00:25+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://jose-villegas.github.io/about/index/</loc>
+    <loc>https://jose-villegas.github.io/about/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
   
@@ -92,6 +92,12 @@
   </url>
   
   <url>
+    <loc>https://jose-villegas.github.io/</loc>
+    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jose-villegas.github.io/categories/photography/</loc>
     <lastmod>2016-11-05T19:53:42+05:30</lastmod>
     <priority>0</priority>
@@ -99,18 +105,12 @@
   
   <url>
     <loc>https://jose-villegas.github.io/post/</loc>
-    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
+    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jose-villegas.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/</loc>
-    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
     <priority>0</priority>
   </url>
   
