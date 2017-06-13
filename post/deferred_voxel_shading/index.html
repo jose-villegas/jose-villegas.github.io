@@ -3,7 +3,7 @@
   <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
- <title>Code</title>
+ <title>Deferred Voxel Shading for Real Time Global Illumination</title>
 
 
 
@@ -23,9 +23,6 @@
 <link href="https://jose-villegas.github.io/css/custom.css" rel="stylesheet">
 <link rel="shortcut icon" href="https://jose-villegas.github.io/img/favicon.png">
 
-<link href="https://jose-villegas.github.io/categories/code/index.xml" rel="alternate" type="application/rss+xml" title="José Villegas" />
-<link href="https://jose-villegas.github.io/categories/code/index.xml" rel="feed" type="application/rss+xml" title="José Villegas" />
-
 
 </head>
   <body>
@@ -40,13 +37,9 @@
     <div class="categories-block">
       <a href="" class="track-categories">//</a>
       
-      <a href="/categories/code">code</a>
+      <a href="/categories/graphics">graphics</a>
       
-      <a href="/categories/design">design</a>
-      
-      <a href="/categories/photography">photography</a>
-      
-      <a href="/categories/travel">travel</a>
+      <a href="/categories/portfolio">portfolio</a>
       
     </div>
   </div>
@@ -83,7 +76,11 @@
             </div>
             <div class="row">
               <div class="col-md-10 header col-md-offset-1">
-                <div class="row">
+                <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<div class="row">
   <div class="col-md-6">
     <div class="title-info">
       
@@ -95,7 +92,7 @@
     <div class="menu">
       
       
-        <a href="https://jose-villegas.github.io/">Home / </a>
+        <a href="https://jose-villegas.github.io//">Home / </a>
       
         <a href="https://jose-villegas.github.io/about/index">About / </a>
       
@@ -113,44 +110,92 @@
         </div>
         <div class="row">
           <div class="col-md-10 main-content col-md-offset-1">
-               <div class="row">
-  <div class="col-md-10 category-header">
-    <a href="">CATEGORY: Code </a>
-  </div>
-</div>
+            
 
-<div class="row">
-  <div class="col-md-10 category-description">
-  
-  </div>
-</div>
-
-
-
-<div class="row content">
-  
-    <div class="col-md-12 content-excerpt">
-      
-      <div class="row">
-        <div class="col-md-12">
-          <div class="row content-date">
-            November 16
-          </div>
-          <div class="row content-title">
-            <h2> <a href="https://jose-villegas.github.io/post/work4/ "> A post without an Image </a> </h2>
-          </div>
-          <div class="row content-summary">
-            <p> <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-</p> </p>
-            <a class="more-link" href="https://jose-villegas.github.io/post/work4/ "> READ THE POST </a>
-          </div>
-        </div>
+<div class="col-md-12 entry">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="entry-meta">
+        June 17
       </div>
     </div>
-    
   </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="entry-header">
+       Deferred Voxel Shading for Real Time Global Illumination
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2">
+      <div class="entry-sidebar">
+        CATEGORIES
+        
+        <div class="entry-categories">
+          <a href="/categories/graphics">graphics</a>
+        </div>
+        
+        <div class="entry-categories">
+          <a href="/categories/portfolio">portfolio</a>
+        </div>
+        
+
+        Tags
+        
+
+      </div>
+    </div>
+    <div class="col-md-10">
+      <div class="entry-content">
+        <p>Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simpliﬁed version of the outgoing radiance and the scene stored in voxels.
+</p>
+
+<p>Deferred voxel shading is a four-step real-time global illumination technique inspired by voxel cone tracing and deferred rendering. This approach enables us to approximate 2-bounce indirect diffuse, specular reflectance, emissive materials, indirect shadows and ambient occlusion.</p>
+
+<p>The first step is voxelize the scene, my implemention voxelizes scene albedo, normal and emission to approximate emissive materials. For this atomic operations on 3D textures are used as described <a href="https://www.seas.upenn.edu/~pcozzi/OpenGLInsights/OpenGLInsights-SparseVoxelization.pdf">here</a>; the average albedo, normal and emission of all the geometry within a voxel is stored in 3D volumes, these volumes are later used to calculate voxel illumination. Unlike other approaches that store radiance directly into the voxel structure I utilize the 3D volumes as deferred rendering does with its geometry buffer for a separate stage for lighting calculations, this has the advantage of being generally faster but requires more memory.</p>
+
+<pre><code class="language-c">...
+layout(binding = 0, r32ui) uniform volatile coherent uimage3D voxelAlbedo;
+layout(binding = 1, r32ui) uniform volatile coherent uimage3D voxelNormal;
+layout(binding = 2, r32ui) uniform volatile coherent uimage3D voxelEmission;
+...
+// average normal per fragments sorrounding the voxel volume
+imageAtomicRGBA8Avg(voxelNormal, position, normal);
+// average albedo per fragments sorrounding the voxel volume
+imageAtomicRGBA8Avg(voxelAlbedo, position, albedo);
+// average emission per fragments sorrounding the voxel volume
+imageAtomicRGBA8Avg(voxelEmission, position, emissive);
+...
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th align="center">Scene</th>
+<th align="center">Average Albedo</th>
+<th align="center">Average Normal</th>
+<th align="center">Average Emission</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/c_scale,w_195/v1497323827/scene_culelk.png" alt="" /></td>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/c_scale,w_195/v1497323820/v_albedo_qtc4ov.png" alt="" /></td>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/c_scale,w_195/v1497323804/v_normal_ryzmrh.png" alt="" /></td>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/c_scale,w_195/v1497323828/v_emission_aibyaf.png" alt="" /></td>
+</tr>
+</tbody>
+</table>
+      </div>
+    </div>
+  </div>
+
+  <hr/>
   
-    
+
+</div>
 
           </div>
         </div>
@@ -160,7 +205,7 @@
   <div class="col-md-12 footer-menu">
       
       
-        <a href="https://jose-villegas.github.io/">Home / </a>
+        <a href="https://jose-villegas.github.io//">Home / </a>
       
         <a href="https://jose-villegas.github.io/about/index">About / </a>
       
