@@ -24,6 +24,13 @@
 <link rel="shortcut icon" href="https://jose-villegas.github.io/img/favicon.png">
 
 
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-97909433-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
 </head>
   <body>
     <div id="root">
@@ -221,7 +228,7 @@ imageAtomicRGBA8Avg(voxelEmission, position, emissive);
 D_{x,y,z} = (\hat{i}\cdot\Psi, \hat{j}\cdot\Psi, \hat{k}\cdot\Psi)
 \end{equation}</p>
 
-<p>Then three dominant faces are selected depending on the axes sign of the averaged normal:</p>
+<p>Then three dominant faces are selected depending on the axes sign of the voxel averaged normal vector:</p>
 
 <p>\begin{equation}
 D_{\omega} =
@@ -261,7 +268,21 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
   </div>
 
   <hr/>
-  
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'https-jose-villegas-github-io';
+    var disqus_identifier = 'https:\/\/jose-villegas.github.io\/post\/deferred_voxel_shading\/';
+    var disqus_title = 'Deferred Voxel Shading for Real Time Global Illumination';
+    var disqus_url = 'https:\/\/jose-villegas.github.io\/post\/deferred_voxel_shading\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 </div>
 
