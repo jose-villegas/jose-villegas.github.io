@@ -80,6 +80,10 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 <div class="row">
   <div class="col-md-6">
     <div class="title-info">
@@ -92,7 +96,7 @@
     <div class="menu">
       
       
-        <a href="https://jose-villegas.github.io//">Home / </a>
+        <a href="https://jose-villegas.github.io/">Home / </a>
       
         <a href="https://jose-villegas.github.io/about/index">About / </a>
       
@@ -188,6 +192,70 @@ imageAtomicRGBA8Avg(voxelEmission, position, emissive);
 </tr>
 </tbody>
 </table>
+
+<p>The next step is voxel illumination, for this we calculate the outgoing radiance per voxel using the data stored from the voxelization step. For this we only need the voxel normal, and its position which can be easily extracted by projecting the voxel 3D coordinates in world-space, then we calculate direct lighting per voxel and add the voxel&rsquo;s emissive value.</p>
+
+<table>
+<thead>
+<tr>
+<th align="center">Scene</th>
+<th align="center">Voxel Direct Lighting</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/c_scale,w_195/v1497323827/DVSGI/scene_culelk.png" alt="" /></td>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/c_scale,w_195/v1497323829/DVSGI/v_direct_vrnajc.png" alt="" /></td>
+</tr>
+</tbody>
+</table>
+
+<p>A disvantage of this technique is the loss of precision averaging all the geometry normals within a voxel. The resulting averaged normal may end up pointing towards a non-convenient direction. This problem is notable when the normal vectors within the space of a voxel are uneven.</p>
+
+<p><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497413810/DVSGI/uneven_normals_n3klcb.svg" alt="" /></p>
+
+<p>To reduce this issue my proposal utilizes a normal-weighted attenuation, where first the normal attenuation is calculated per every face of the voxel as follows:</p>
+
+<p>\begin{equation}
+D_{x,y,z} = (\hat{i}\cdot\Psi, \hat{j}\cdot\Psi, \hat{k}\cdot\Psi)
+\end{equation}</p>
+
+<p>Then three dominant faces are selected depending on the axes sign of the averaged normal:</p>
+
+<p>\begin{equation}
+D_{\omega} =
+\begin{cases}
+max\{D_\omega, 0\}, &amp; N_\omega&gt;0\\
+max\{-D_\omega, 0\}, &amp; \text{otherwise}
+\end{cases}
+\end{equation}</p>
+
+<p>And finally, the resulting attenuation is the product of every dominant face normal attenuation, multiplied with the weight per axis of the averaged normal vector of the voxel, the resulting reflectance model is computed as follows:</p>
+
+<p>\begin{equation}
+\begin{split}
+W &amp;= N^2\\
+V_{r} &amp;= L_{i}\frac{\rho}{\pi}(W_x D_x + W_y D_y + W_z D_z)
+\end{split}
+\end{equation}
+where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) the normal vector of the voxel and \(\Psi\) the light direction.</p>
+
+<table>
+<thead>
+<tr>
+<th align="center">Normal attenuation</th>
+<th align="center">Normal-weighted attenuation</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/c_scale,w_450/v1497414410/DVSGI/shading_standard_e7vzft.png" alt="" />&nbsp;</td>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/c_scale,w_450/v1497414410/DVSGI/shading_directional_uwyxxw.png" alt="" /></td>
+</tr>
+</tbody>
+</table>
       </div>
     </div>
   </div>
@@ -205,7 +273,7 @@ imageAtomicRGBA8Avg(voxelEmission, position, emissive);
   <div class="col-md-12 footer-menu">
       
       
-        <a href="https://jose-villegas.github.io//">Home / </a>
+        <a href="https://jose-villegas.github.io/">Home / </a>
       
         <a href="https://jose-villegas.github.io/about/index">About / </a>
       
