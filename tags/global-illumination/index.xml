@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Global Illumination on José Villegas</title>
+    <link>https://jose-villegas.github.io/tags/global-illumination/</link>
+    <description>Recent content in Global Illumination on José Villegas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;2016 José Villegas</copyright>
+    <lastBuildDate>Sat, 10 Jun 2017 19:11:07 -0400</lastBuildDate>
+    
+	<atom:link href="https://jose-villegas.github.io/tags/global-illumination/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deferred Voxel Shading for Real Time Global Illumination</title>
+      <link>https://jose-villegas.github.io/post/deferred_voxel_shading/</link>
+      <pubDate>Sat, 10 Jun 2017 19:11:07 -0400</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/deferred_voxel_shading/</guid>
+      <description>&lt;p&gt;Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simpliﬁed version of the outgoing radiance and the scene stored in voxels.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

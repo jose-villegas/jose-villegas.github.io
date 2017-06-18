@@ -7,9 +7,109 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2016 José Villegas</copyright>
+    <lastBuildDate>Sat, 10 Jun 2017 19:11:07 -0400</lastBuildDate>
     
 	<atom:link href="https://jose-villegas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Assimp</title>
+      <link>https://jose-villegas.github.io/tags/assimp/</link>
+      <pubDate>Sat, 10 Jun 2017 19:11:07 -0400</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/assimp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://jose-villegas.github.io/tags/c&#43;&#43;/</link>
+      <pubDate>Sat, 10 Jun 2017 19:11:07 -0400</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Global Illumination</title>
+      <link>https://jose-villegas.github.io/tags/global-illumination/</link>
+      <pubDate>Sat, 10 Jun 2017 19:11:07 -0400</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/global-illumination/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graphics</title>
+      <link>https://jose-villegas.github.io/tags/graphics/</link>
+      <pubDate>Sat, 10 Jun 2017 19:11:07 -0400</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/graphics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Imgui</title>
+      <link>https://jose-villegas.github.io/tags/imgui/</link>
+      <pubDate>Sat, 10 Jun 2017 19:11:07 -0400</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/imgui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oglplus</title>
+      <link>https://jose-villegas.github.io/tags/oglplus/</link>
+      <pubDate>Sat, 10 Jun 2017 19:11:07 -0400</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/oglplus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opengl</title>
+      <link>https://jose-villegas.github.io/tags/opengl/</link>
+      <pubDate>Sat, 10 Jun 2017 19:11:07 -0400</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/opengl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://jose-villegas.github.io/tags/portfolio/</link>
+      <pubDate>Sat, 10 Jun 2017 19:11:07 -0400</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/portfolio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real Time</title>
+      <link>https://jose-villegas.github.io/tags/real-time/</link>
+      <pubDate>Sat, 10 Jun 2017 19:11:07 -0400</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/real-time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rendering</title>
+      <link>https://jose-villegas.github.io/tags/rendering/</link>
+      <pubDate>Sat, 10 Jun 2017 19:11:07 -0400</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/rendering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Voxels</title>
+      <link>https://jose-villegas.github.io/tags/voxels/</link>
+      <pubDate>Sat, 10 Jun 2017 19:11:07 -0400</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/voxels/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
