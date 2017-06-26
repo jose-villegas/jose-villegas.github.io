@@ -238,6 +238,7 @@ ga('send', 'pageview');
 
 <p>Deferred voxel shading is a four-step real-time global illumination technique inspired by voxel cone tracing and deferred rendering. This approach enables us to obtain an accurate approximation of a plethora of indirect illumination effects including: indirect diffuse, specular reflectance, color-blending, emissive materials, indirect shadows and ambient occlusion. The steps that comprehend this technique are described below.</p>
 
+<div class="image-table">
 <table>
   <tr>
     <th>Technique Overview</th>
@@ -246,6 +247,7 @@ ga('send', 'pageview');
     <td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497489937/dvsgi_overview_vlucdk.svg" style="width: 100%;"/></td>
   </tr>
 </table>
+</div>
 
 <h2 id="1-voxelization">1. Voxelization</h2>
 
@@ -265,6 +267,7 @@ imageAtomicRGBA8Avg(voxelEmission, position, emissive);
 ...
 </code></pre>
 
+<div class="image-table">
 <table>
 <thead>
 <tr>
@@ -285,6 +288,8 @@ imageAtomicRGBA8Avg(voxelEmission, position, emissive);
 </tbody>
 </table>
 
+</div>
+
 <h3 id="1-1-voxel-structure">1.1. Voxel Structure</h3>
 
 <p>My voxel structure is inspired by deferred rendering, where a G-Buffer contains relevant data to later be used in a separate light pass. Normal, albedo and emission values are stored in voxels during the voxelization process, every attribute has its own 3D texture associated. This information is sufficient to calculate the diffuse reflectance and normal attenuation on a separate light pass where, instead of computing the lighting per pixel it is done per voxel. The structure can be extended to support a more complicated reflectance model but this may imply a higher memory consumption to store additional data.</p>
@@ -293,6 +298,7 @@ imageAtomicRGBA8Avg(voxelEmission, position, emissive);
 
 <p>The radiance volume represents the maximum level of detail for the voxelized scene, this texture is separated from the directional volumes. To bind these two structures, linear interpolation is used between samples of both structures when the mipmap level required for the diameter of the cone ranges between, the maximum level and the first filtered level of detail.</p>
 
+<div class="image-table">
 <table>
   <tr>
     <th>A visualization of the voxel structure</th>
@@ -301,6 +307,7 @@ imageAtomicRGBA8Avg(voxelEmission, position, emissive);
     <td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497571454/DVSGI/voxel_structure_dsmsvc.svg" style="width: 60%;"/></td>
   </tr>
 </table>
+</div>
 
 <h3 id="1-2-dynamic-voxelization">1.2. Dynamic Voxelization</h3>
 
@@ -316,6 +323,7 @@ imageAtomicRGBA8Avg(voxelEmission, position, emissive);
 
 <p>One of the advantages of this technique is that it&rsquo;s compatible with all standard light types like point, spot and directional lights, another is that we don&rsquo;t need shadow maps, though they can help greatly with precision specially for directional lights. Other techniques calculate the voxel radiance per light&rsquo;s shadow map, meaning that for every shadow-mapped light that wants to contribute to the voxel radiance the illumination step has to be repeated.</p>
 
+<div class="image-table">
 <table>
 <thead>
 <tr>
@@ -331,6 +339,8 @@ imageAtomicRGBA8Avg(voxelEmission, position, emissive);
 </tr>
 </tbody>
 </table>
+
+</div>
 
 <h3 id="2-1-normal-weighted-attenuation">2.1. Normal-Weighted Attenuation</h3>
 
@@ -368,6 +378,7 @@ V_{r} &amp;= L_{i}\frac{\rho}{\pi}(W_x D_x + W_y D_y + W_z D_z)
 \end{equation}
 where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) the normal vector of the voxel and \(\Psi\) the light direction.</p>
 
+<div class="image-table">
 <table>
 <thead>
 <tr>
@@ -378,11 +389,13 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 
 <tbody>
 <tr>
-<td><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497414410/DVSGI/shading_standard_e7vzft.png" style="width: 99%;"/></td>
-<td><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497414410/DVSGI/shading_directional_uwyxxw.png" style="width: 99%;"/></td>
+<td><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497414410/DVSGI/shading_standard_e7vzft.png" style="width: 100%;"/></td>
+<td><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497414410/DVSGI/shading_directional_uwyxxw.png" style="width: 100%;"/></td>
 </tr>
 </tbody>
 </table>
+
+</div>
 
 <h3 id="2-2-voxel-occlusion">2.2. Voxel Occlusion</h3>
 
@@ -396,6 +409,7 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 
 <p>Instead of stopping the ray as soon a voxel is found, soft shadows can be approximated with a single ray accumulating a value \(\kappa\) per collision and dividing by the traced distance \(t\), i.e. \(\nu = \nu + (1 - \nu)\kappa\div t\), where \(1 - \nu\) represents the occlusion value after the accumulation is finished. This technique exploits the observation that, from the light point of view, the number of collisions will usually be higher for the rays that pass through the borders of the voxelized geometry.</p>
 
+<div class="image-table">
 <table>
 <thead>
 <tr>
@@ -416,11 +430,13 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 </tr>
 
 <tr>
-<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497500851/DVSGI/hard_traced_takadd.png" style="width: 99%;"/></td>
-<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497500853/DVSGI/soft_traced_upabyg.png" style="width: 99%;"/></td>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497500851/DVSGI/hard_traced_takadd.png" style="width: 100%;"/></td>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497500853/DVSGI/soft_traced_upabyg.png" style="width: 100%;"/></td>
 </tr>
 </tbody>
 </table>
+
+</div>
 
 <h3 id="2-3-emission">2.3. Emission</h3>
 
@@ -432,6 +448,7 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 
 <p>To generate the anisotropic voxels I use the process detailed by Crassin <a href="http://maverick.inria.fr/Publications/2011/CNSGE11b/">here</a>. To compute a directional value a step of volumetric integration is done in depth and the directional values are averaged to obtain the resulting value for a certain direction. In my approach this is done using compute shaders, executing a thread per every voxel at the mipmap level that is going to be filtered using the values from the previous level, this process is done per every mipmap level.</p>
 
+<div class="image-table">
 <table>
   <tr>
     <th>Process to generate anisotropic voxels</th>
@@ -440,6 +457,7 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
     <td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497576308/DVSGI/aniso_cropped_aekdhv.png" style="width: 40%;"/></td>
   </tr>
 </table>
+</div>
 
 <h2 id="4-voxel-cone-tracing">4. Voxel Cone Tracing</h2>
 
@@ -447,6 +465,7 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 
 <p>The shape of the cone is meant to exploit the spatial and directional coherence of the many rays packed within the space of a cone. This behavior is used in many approaches such as packet ray-tracing.</p>
 
+<div class="image-table">
 <table>
   <tr>
     <th>Visual representation of a cone used for cone tracing</th>
@@ -455,6 +474,7 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
     <td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497581558/DVSGI/cone_oyxusj.svg" style="width: 80%;"/></td>
   </tr>
 </table>
+</div>
 
 <p>As seen in the figure above each cone is defined by an origin \(C_o\), a direction \(C_d\) and an aperture angle \(\theta\). During the cone steps the diameter of the cone is defined by \(d\), this value can be extracted using the traced distance \(t\) with the following equation: \(d=2t\times\tan(\theta\div 2)\). Which mipmap level should be sampled depending on the diameter of the cone can be obtained using the following equation: \(V_{level} = log_2(d\div V_{size})\), where \(V_{size}\) is the size of a voxel at the maximum level of detail.</p>
 
@@ -468,6 +488,7 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 
 <p>The distribution of the cones matches the shape of the BRDF, for a Blinn-Phong material a few large cones distributed over the normal oriented hemisphere estimate the diffuse reflection, while a single cone in the reflected direction, where its aperture depends on the specular exponent, approximates the specular reflection.</p>
 
+<div class="image-table">
 <table>
 <thead>
 <tr>
@@ -486,6 +507,8 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 </tbody>
 </table>
 
+</div>
+
 <h3 id="4-2-ambient-occlusion">4.2. Ambient Occlusion</h3>
 
 <p>Ambient occlusion can be approximated using the same cones used for the diffuse reflection for efficiency. For the ambient occlusion term \(\delta\) we only accumulate the occlusion value \(\alpha_2\), at each step the accumulated value is multiplied with the weighting function \(f(r) = \frac{1}{1+\lambda r}\), where \(r\) is the current radius of the cone and \(\lambda\) an user defined value which controls how fast \(f(r)\) decays along the traced distance. At each cone step the ambient occlusion term is updated as: \(\delta = \delta + (1-\delta)\alpha_2f(r)\).</p>
@@ -494,6 +517,7 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 
 <p>Cone tracing can also be used to achieve soft shadows tracing a cone from the surface point \(x\) towards the direction of the light The cone aperture controls how soft and scattered the resulting shadow is. For soft shadows with cones we only accumulate the occlusion value \(\alpha_2\) at each step.</p>
 
+<div class="image-table">
 <table>
   <tr>
     <th>Cone Soft Shadows</th>
@@ -502,6 +526,7 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
     <td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497585029/DVSGI/cone_shadow_jwx9pd.svg" style="width: 40%;"/></td>
   </tr>
 </table>
+</div>
 
 <h2 id="voxel-global-illumination">Voxel Global Illumination</h2>
 
@@ -513,7 +538,7 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 
 <p>The results here were tested on an AMD 380 R9 GPU on different scenes with increasing geometric complexity and dynamic objects added to the scene. The scenes used for testing are listed below:</p>
 
-<div style="overflow-x:auto;">
+<div class="data-table">
 <table>
 <thead>
 <tr>
@@ -554,7 +579,7 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 
 <p>The times per frame for the dynamic and static voxelization of each scene are show below:</p>
 
-<div style="overflow-x:auto;">
+<div class="data-table">
 <table>
 <thead>
 <tr>
@@ -597,7 +622,7 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 
 <p>The table below shows the results for voxel direct illumination with shadow mapping or raycasting for voxel occlusion and voxel global illumination, it also includes the time for anisotropic filtering after both steps. For voxel direct illumination the times are similar between all scenes using shadow mapping, while raycasting costs more performance it enables occlusion for any type of light source without shadow mapping.</p>
 
-<div style="overflow-x:auto;">
+<div class="data-table">
 <table>
 <thead>
 <tr>
@@ -644,6 +669,7 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 
 <p>For raycasting, the amount of empty space in the scene affects how early the traced rays end, which affects the general performance. For high density scenes such as S3 most rays end early, in contrast the scene S1 takes a considerable amount of time using raycasting because the scene is mostly empty space, this same condition also applies for the voxel indirect diffuse step.</p>
 
+<div class="image-table">
 <table>
 <thead>
 <tr>
@@ -655,42 +681,32 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 
 <tbody>
 <tr>
-<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497742010/DVSGI/cornell_scene.png" style="width: 99%;"/></td>
-<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497740284/DVSGI/direct_voxel_cornell.png" style="width: 99%;"/></td>
-<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497740284/DVSGI/gi_voxel_cornell.png" style="width: 99%;"/></td>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497742010/DVSGI/cornell_scene.png" style="width: 100%;"/></td>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497740284/DVSGI/direct_voxel_cornell.png" style="width: 100%;"/></td>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497740284/DVSGI/gi_voxel_cornell.png" style="width: 100%;"/></td>
 </tr>
 
 <tr>
-<td align="center"><p style="height: 0px"></p></td>
-<td align="center"><p style="height: 0px"></p></td>
-<td align="center"></td>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497742010/DVSGI/sibenik_scene.png" style="width: 100%;"/></td>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497740284/DVSGI/voxel_direct_sibenik.png" style="width: 100%;"/></td>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497740284/DVSGI/voxel_gi_sibenik.png" style="width: 100%;"/></td>
 </tr>
 
 <tr>
-<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497742010/DVSGI/sibenik_scene.png" style="width: 99%;"/></td>
-<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497740284/DVSGI/voxel_direct_sibenik.png" style="width: 99%;"/></td>
-<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497740284/DVSGI/voxel_gi_sibenik.png" style="width: 99%;"/></td>
-</tr>
-
-<tr>
-<td align="center"><p style="height: 0px"></p></td>
-<td align="center"><p style="height: 0px"></p></td>
-<td align="center"></td>
-</tr>
-
-<tr>
-<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497742010/DVSGI/sponza_scene.png" style="width: 99%;"/></td>
-<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497740284/DVSGI/voxel_direct_sponza.png" style="width: 99%;"/></td>
-<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497740284/DVSGI/voxel_gi_sponza.png" style="width: 99%;"/></td>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497742010/DVSGI/sponza_scene.png" style="width: 100%;"/></td>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497740284/DVSGI/voxel_direct_sponza.png" style="width: 100%;"/></td>
+<td align="center"><img src="http://res.cloudinary.com/jose-villegas/image/upload/v1497740284/DVSGI/voxel_gi_sponza.png" style="width: 100%;"/></td>
 </tr>
 </tbody>
 </table>
+
+</div>
 
 <h2 id="voxel-cone-tracing">Voxel Cone Tracing</h2>
 
 <p>Once the voxel structure is anisotropically filtered we can proceed with voxel cone tracing per pixel for the final composition of the image. In my approach six cones with an aperture of 60 degrees are used to approximate the indirect diffuse term, for the indirect specular in these test I utilize a specular cone with an aperture of 10 degrees. The next table shows the performance for indirect lighting on different scenes. For all the scenes my implementation achieves results over 30FPS (\(&lt; 33.3 ms\)) under constant dynamic update, meaning objects and lights are changing and moving per frame. The dynamic update includes dynamic voxelization, voxel direct illumination, voxel global illumination and the necessary anistropic filtering steps. For a screen resolution of \(1920x1080\) pixels my implementation obtains an average framerate of \(28.57 ms\) for the scene S3, \(27.02 ms\) for S2 and \(27.77 ms\) for S1 under constant dynamic update, these results show that even with a high resolution the technique can achieve over 30FPS for all the scenes.</p>
 
-<div style="overflow-x:auto;">
+<div class="data-table">
 <table>
 <thead>
 <tr>
@@ -735,6 +751,7 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 
 <p>Below a visual comparison between a reference image rendered in a path-tracer for 3 hours, another real time global illumination technique called <a href="http://www.crytek.com/download/Light_Propagation_Volumes.pdf">light propagation volumes</a> and my technique. The image generated by my technique is closer to the reference image, specially the indirect diffuse reaching the right columns that aren&rsquo;t directly hit by the light source. Light propagation volumes is also limited in the sense that it only provides approximation for the indirect diffuse term, whereas voxel cone tracing achieves specular reflection and many other light phenomena.</p>
 
+<div class="image-table">
 <table>
 <thead>
 <tr>
@@ -753,6 +770,8 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 </tbody>
 </table>
 
+</div>
+
 <h3 id="optimizations">Optimizations</h3>
 
 <p>In my implementation the dynamic update can be set to update at a given number of frames or on demand, a simple optimization for example is to update each 5~3 frames, this can easily give results over 60FPS for most scenes with little to zero notable difference.</p>
@@ -765,6 +784,7 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 
 <h3 id="dynamic-update">Dynamic Update</h3>
 
+<div class="image-table">
 <table>
   <tr>
     <th>Cornell Box</th>
@@ -792,9 +812,11 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
     </td>
   </tr>
 </table>
+</div>
 
 <h3 id="indirect-lighting">Indirect Lighting</h3>
 
+<div class="image-table">
 <table>
   <tr>
     <th>Emissive Material</th>
@@ -815,9 +837,11 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
     </td>
   </tr>
 </table>
+</div>
 
 <h3 id="ambient-occlusion">Ambient Occlusion</h3>
 
+<div class="image-table">
 <table>
 <thead>
 <tr>
@@ -836,8 +860,11 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 </tbody>
 </table>
 
+</div>
+
 <h3 id="soft-shadows">Soft Shadows</h3>
 
+<div class="image-table">
 <table>
 <thead>
 <tr>
@@ -858,8 +885,11 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 </tbody>
 </table>
 
+</div>
+
 <h3 id="emissive-materials-area-lights">Emissive Materials / Area Lights</h3>
 
+<div class="image-table">
 <table>
 <thead>
 <tr>
@@ -881,8 +911,11 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 </tbody>
 </table>
 
+</div>
+
 <h3 id="teasers">Teasers</h3>
 
+<div class="image-table">
 <table>
 <thead>
 <tr>
@@ -903,6 +936,8 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 </tr>
 </tbody>
 </table>
+
+</div>
 
 <h3 id="recording">Recording</h3>
 
