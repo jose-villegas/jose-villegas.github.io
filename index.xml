@@ -6,8 +6,7 @@
     <description>Recent content on José Villegas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy;2016 José Villegas</copyright>
-    <lastBuildDate>Sun, 18 Jun 2017 19:29:43 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2020 17:26:11 -0400</lastBuildDate>
     
 	<atom:link href="https://jose-villegas.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,11 +14,21 @@
     <item>
       <title>Deferred Voxel Shading for Real Time Global Illumination</title>
       <link>https://jose-villegas.github.io/post/deferred_voxel_shading/</link>
-      <pubDate>Sun, 18 Jun 2017 19:29:43 -0400</pubDate>
+      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
       
       <guid>https://jose-villegas.github.io/post/deferred_voxel_shading/</guid>
-      <description>&lt;p&gt;Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simpliﬁed version of the outgoing radiance and the scene stored in voxels.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;This was my master thesis for Computer Graphics, eventually I managed to publish a paper for this work.&lt;/p&gt;
+
+&lt;p&gt;Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simpliﬁed version of the outgoing radiance and the scene stored in voxels.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Global Game Jam 2015 - Kidz Solution</title>
+      <link>https://jose-villegas.github.io/post/ggj2015/</link>
+      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/ggj2015/</guid>
+      <description>&lt;p&gt;This was my first Global Game Jam, though I had experience before with game jams in college. It was a really great experience that ended up with me going for four years consecutively. The idea of making a complete game in just 48 hours was first daunting, but later awesome and completely achievable with good team work and focus.&lt;/p&gt;</description>
     </item>
     
     <item>
