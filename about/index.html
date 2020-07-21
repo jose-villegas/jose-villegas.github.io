@@ -25,11 +25,21 @@
 
 
 <script type="application/javascript">
-var doNotTrack = false;
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-97909433-1', 'auto');
-	
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-173116509-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 }
 </script>
@@ -115,6 +125,10 @@ if (!doNotTrack) {
       
         <a href="https://jose-villegas.github.io/">Home / </a>
       
+        <a href="https://jose-villegas.github.io/about/">About / </a>
+      
+        <a href="https://jose-villegas.github.io/contact/">Contact / </a>
+      
     </div>
   </div>
 
@@ -127,12 +141,12 @@ if (!doNotTrack) {
           <div class="col-md-10 main-content col-md-offset-1">
             
 
-<div class="post-image" style="background-image: url()"></div>
+<div class="post-image" style="background-image: url(https://res.cloudinary.com/jose-villegas/image/upload/v1595302391/WebPage/5597872486_43af8e948b_o.jpg)"></div>
 <div class="col-md-12 entry">
   <div class="row">
     <div class="col-md-12">
       <div class="entry-meta">
-        Saturday, 05 November, 2016
+        Monday, 20 July, 2020
       </div>
     </div>
   </div>
@@ -194,24 +208,13 @@ if (!doNotTrack) {
     </div>
     <div class="col-md-10">
       <div class="entry-content">
-        
+        <p>Hello there! My name is exactly as the site&rsquo;s name, Jose Villegas. I&rsquo;m a computer science graduate with a minor in computer graphics that has been working for years as game developer. I&rsquo;m originally from Venezuela, Caracas, currently I live in Santiago, Chile. Game development was a natural path for me coming from computer graphics after college as both share many similarities and I really loved games and developing them, I was already making games before I even graduated.</p>
 
-<p>An sincerity so extremity he additions. Her yet <strong>there truth merit</strong>. Mrs all projecting favourable now unpleasing. Son law garden chatty temper. Oh children provided to mr elegance marriage strongly. Off can admiration prosperous now devonshire diminution law.</p>
+<p>Games in some way provide us a way to build a different reality within a computer, you can&rsquo;t double jump in real life but you sure can in many games and I find the fact that we can build these worlds really amazing and exciting. I love making games, the whole development process involves having an extensive knowledge of programming in general. Learning, designing, implementing and testing all these features or systems or mechanics is quite the challenge and I think us game developers live for that.</p>
 
-<p>Received overcame oh sensible so at an. Formed do change merely to county it. <strong>Am separate contempt</strong> domestic to to oh. On relation my so addition branched. Put hearing cottage she norland letters equally prepare too. Replied exposed savings he no viewing as up. Soon body add him hill. No father living really people estate if. Mistake do produce beloved demesne if am pursuit.</p>
+<p>Another thing great about making games is that it&rsquo;s almost always a team effort. You get to know all these other amazing people that have skills in others areas such as music, art, design, management, user experience, interfaces, you end up learning a lot about other careers and sometimes they also learn from you.</p>
 
-<p><img src="/img/about.jpg" alt="This is me" /></p>
-
-<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-
-<h4 id="education">Education</h4>
-
-<ul>
-<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-<li>Aliquam tincidunt mauris eu risus.</li>
-</ul>
-
-<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then</p>
+<p>I try to keep my curriculum updated on my Github. You can check it out <a href="https://github.com/jose-villegas/cv-english/blob/master/main.pdf">here</a></p>
 
       </div>
     </div>
@@ -248,8 +251,6 @@ if (!doNotTrack) {
             <div class="row">
   <div class="col-md-12 footer-menu">
       
-      
-        <a href="https://jose-villegas.github.io/">Home / </a>
       
 
   </div>

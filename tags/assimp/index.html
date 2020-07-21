@@ -28,11 +28,21 @@
 
 
 <script type="application/javascript">
-var doNotTrack = false;
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-97909433-1', 'auto');
-	
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-173116509-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 }
 </script>
@@ -118,6 +128,10 @@ if (!doNotTrack) {
       
         <a href="https://jose-villegas.github.io/">Home / </a>
       
+        <a href="https://jose-villegas.github.io/about/">About / </a>
+      
+        <a href="https://jose-villegas.github.io/contact/">Contact / </a>
+      
     </div>
   </div>
 
@@ -181,8 +195,6 @@ if (!doNotTrack) {
             <div class="row">
   <div class="col-md-12 footer-menu">
       
-      
-        <a href="https://jose-villegas.github.io/">Home / </a>
       
 
   </div>

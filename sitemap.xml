@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jose-villegas.github.io/about/</loc>
+    <lastmod>2020-07-20T17:26:11-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jose-villegas.github.io/categories/</loc>
     <lastmod>2020-07-20T17:26:11-04:00</lastmod>
     <priority>0</priority>
@@ -152,11 +157,6 @@
   <url>
     <loc>https://jose-villegas.github.io/contact/</loc>
     <lastmod>2016-11-06T13:00:25+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/about/</loc>
-    <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
   
 </urlset>

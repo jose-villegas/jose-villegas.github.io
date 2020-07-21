@@ -25,11 +25,21 @@
 
 
 <script type="application/javascript">
-var doNotTrack = false;
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-97909433-1', 'auto');
-	
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-173116509-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 }
 </script>
@@ -115,6 +125,10 @@ if (!doNotTrack) {
       
         <a href="https://jose-villegas.github.io/">Home / </a>
       
+        <a href="https://jose-villegas.github.io/about/">About / </a>
+      
+        <a href="https://jose-villegas.github.io/contact/">Contact / </a>
+      
     </div>
   </div>
 
@@ -127,7 +141,7 @@ if (!doNotTrack) {
           <div class="col-md-10 main-content col-md-offset-1">
             
 
-<div class="post-image" style="background-image: url()"></div>
+<div class="post-image" style="background-image: url(https://res.cloudinary.com/jose-villegas/image/upload/v1595302391/WebPage/5597872486_43af8e948b_o.jpg)"></div>
 <div class="col-md-12 entry">
   <div class="row">
     <div class="col-md-12">
@@ -194,11 +208,25 @@ if (!doNotTrack) {
     </div>
     <div class="col-md-10">
       <div class="entry-content">
-        <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then</p>
+        <p>You reach me out using the following:</p>
 
-<p>Effects present letters inquiry no an removed or friends. Desire behind latter me though in. Supposing shameless am he engrossed up additions. My possible peculiar together to. Desire so better am cannot he up before points. Remember mistaken opinions it pleasure of debating. Court front maids forty if aware their at. Chicken use are pressed removed.</p>
+<div>
+    <a href="mailto:villegasjose.gg@gmail.com" data-animate-hover="pulse" class="email">
+        <i class="fa fa-envelope"></i> Email
+    </a>
+</div>
 
-<p>Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh.</p>
+<div>
+    <a href="https://www.linkedin.com/in/villegasjose" data-animate-hover="pulse">
+        <i class="fa fa-linkedin"></i> LinkedIn
+    </a>
+</div>
+
+<div>
+    <a href="https://github.com/jose-villegas" data-animate-hover="pulse">
+        <i class="fa fa-github"></i> GitHub
+    </a>
+</div>
 
       </div>
     </div>
@@ -235,8 +263,6 @@ if (!doNotTrack) {
             <div class="row">
   <div class="col-md-12 footer-menu">
       
-      
-        <a href="https://jose-villegas.github.io/">Home / </a>
       
 
   </div>
