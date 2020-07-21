@@ -12,17 +12,6 @@
     
     
     <item>
-      <title>Deferred Voxel Shading for Real Time Global Illumination</title>
-      <link>https://jose-villegas.github.io/post/deferred_voxel_shading/</link>
-      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
-      
-      <guid>https://jose-villegas.github.io/post/deferred_voxel_shading/</guid>
-      <description>&lt;p&gt;This was my master thesis for Computer Graphics, eventually I managed to publish a paper for this work.&lt;/p&gt;
-
-&lt;p&gt;Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simpliﬁed version of the outgoing radiance and the scene stored in voxels.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Global Game Jam 2015 - Kidz Solution</title>
       <link>https://jose-villegas.github.io/post/ggj2015/</link>
       <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
@@ -38,6 +27,15 @@
       
       <guid>https://jose-villegas.github.io/post/ggj2016/</guid>
       <description>&lt;p&gt;For this game jam we went with a more spooky game. And we wanted to make it multi-player. So we came up with the idea to make a tag game but with some modifications to fit the theme and make it more fun.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Global Game Jam 2017 - Echo Switch</title>
+      <link>https://jose-villegas.github.io/post/ggj2017/</link>
+      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/ggj2017/</guid>
+      <description>&lt;p&gt;This time we really wanted to do a co-op game. We built the idea around a platform game where you play with your friend, you both co-perate together to advance in the map and defeat enemies.&lt;/p&gt;</description>
     </item>
     
   </channel>

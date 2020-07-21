@@ -52,8 +52,6 @@ if (!doNotTrack) {
       
       <a href="/categories/graphics">graphics</a>
       
-      <a href="/categories/portfolio">portfolio</a>
-      
     </div>
   </div>
 
@@ -157,13 +155,11 @@ if (!doNotTrack) {
         
           <a href="/categories/graphics">graphics</a> 
         
-          <a href="/categories/portfolio">portfolio</a> 
-        
         </div>
         TAGS        
         <div class="entry-tags">
         
-          <a href="/tags/assimp">assimp</a> 
+          <a href="/tags/c">c#</a> 
         
           <a href="/tags/c&#43;&#43;">c&#43;&#43;</a> 
         
@@ -177,17 +173,7 @@ if (!doNotTrack) {
         
           <a href="/tags/graphics">graphics</a> 
         
-          <a href="/tags/imgui">imgui</a> 
-        
-          <a href="/tags/oglplus">oglplus</a> 
-        
           <a href="/tags/opengl">opengl</a> 
-        
-          <a href="/tags/portfolio">portfolio</a> 
-        
-          <a href="/tags/real-time">real-time</a> 
-        
-          <a href="/tags/rendering">rendering</a> 
         
           <a href="/tags/unity">unity</a> 
         
@@ -205,45 +191,37 @@ if (!doNotTrack) {
 <h1 id="table-of-contents">Table of Contents</h1>
 
 <ul>
-<li><a href="#overview">Overview</a></li>
-<li><a href="#1-voxelization">1. Voxelization</a>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+<li><a href="#overview">Overview</a>
 
 <ul>
-<li><a href="#1-1-voxel-structure">1.1. Voxel Structure</a></li>
-<li><a href="#1-2-dynamic-voxelization">1.2. Dynamic Voxelization</a></li>
-</ul></li>
-<li><a href="#2-voxel-illumination">2. Voxel Illumination</a>
+<li><a href="#1-voxelization">1. Voxelization</a></li>
+<li><a href="#11-voxel-structure">1.1. Voxel Structure</a></li>
+<li><a href="#12-dynamic-voxelization">1.2. Dynamic Voxelization</a></li>
+<li><a href="#2-voxel-illumination">2. Voxel Illumination</a></li>
+<li><a href="#21-normal-weighted-attenuation">2.1. Normal-Weighted Attenuation</a></li>
+<li><a href="#22-voxel-occlusion">2.2. Voxel Occlusion</a>
 
 <ul>
-<li><a href="#2-1-normal-weighted-attenuation">2.1. Normal-Weighted Attenuation</a></li>
-<li><a href="#2-2-voxel-occlusion">2.2. Voxel Occlusion</a>
-
-<ul>
-<li><a href="#2-2-1-soft-voxel-shadows">2.2.1. Soft Voxel Shadows</a></li>
+<li><a href="#221-soft-voxel-shadows">2.2.1. Soft Voxel Shadows</a></li>
 </ul></li>
-<li><a href="#2-3-emission">2.3. Emission</a></li>
-</ul></li>
+<li><a href="#23-emission">2.3. Emission</a></li>
 <li><a href="#3-anisotropic-voxels">3. Anisotropic Voxels</a></li>
-<li><a href="#4-voxel-cone-tracing">4. Voxel Cone Tracing</a>
+<li><a href="#4-voxel-cone-tracing">4. Voxel Cone Tracing</a></li>
+<li><a href="#41-indirect-illumination">4.1. Indirect Illumination</a></li>
+<li><a href="#42-ambient-occlusion">4.2. Ambient Occlusion</a></li>
+<li><a href="#43-soft-shadows">4.3. Soft Shadows</a></li>
+<li><a href="#voxel-global-illumination">Voxel Global Illumination</a></li>
+</ul></li>
+<li><a href="#results">Results</a>
 
 <ul>
-<li><a href="#4-1-indirect-illumination">4.1. Indirect Illumination</a></li>
-<li><a href="#4-2-ambient-occlusion">4.2. Ambient Occlusion</a></li>
-<li><a href="#4-3-soft-shadows">4.3. Soft Shadows</a></li>
-</ul></li>
-<li><a href="#voxel-global-illumination">Voxel Global Illumination</a></li>
-<li><a href="#results">Results</a></li>
 <li><a href="#voxelization">Voxelization</a></li>
 <li><a href="#voxel-illumination">Voxel Illumination</a></li>
 <li><a href="#voxel-cone-tracing">Voxel Cone Tracing</a></li>
-<li><a href="#comparison">Comparison</a>
-
-<ul>
+<li><a href="#comparison">Comparison</a></li>
 <li><a href="#optimizations">Optimizations</a></li>
-</ul></li>
-<li><a href="#show-off">Show Off</a>
-
-<ul>
+<li><a href="#show-off">Show Off</a></li>
 <li><a href="#dynamic-update">Dynamic Update</a></li>
 <li><a href="#indirect-lighting">Indirect Lighting</a></li>
 <li><a href="#ambient-occlusion">Ambient Occlusion</a></li>
@@ -252,7 +230,7 @@ if (!doNotTrack) {
 <li><a href="#teasers">Teasers</a></li>
 <li><a href="#recording">Recording</a></li>
 </ul></li>
-<li><a href="#source-code-executable">Source Code &amp; Executable</a></li>
+<li><a href="#source-code--executable">Source Code &amp; Executable</a></li>
 </ul>
 
 <h1 id="overview">Overview</h1>

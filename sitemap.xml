@@ -19,12 +19,22 @@
   </url>
   
   <url>
+    <loc>https://jose-villegas.github.io/contact/</loc>
+    <lastmod>2020-07-20T17:26:11-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jose-villegas.github.io/post/ggj2015/</loc>
     <lastmod>2020-07-20T17:26:11-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://jose-villegas.github.io/post/ggj2016/</loc>
+    <lastmod>2020-07-20T17:26:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/post/ggj2017/</loc>
     <lastmod>2020-07-20T17:26:11-04:00</lastmod>
   </url>
   
@@ -47,7 +57,7 @@
   </url>
   
   <url>
-    <loc>https://jose-villegas.github.io/tags/assimp/</loc>
+    <loc>https://jose-villegas.github.io/tags/c#/</loc>
     <lastmod>2020-07-20T17:26:11-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -71,13 +81,13 @@
   </url>
   
   <url>
-    <loc>https://jose-villegas.github.io/categories/games/</loc>
+    <loc>https://jose-villegas.github.io/tags/games/</loc>
     <lastmod>2020-07-20T17:26:11-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jose-villegas.github.io/tags/games/</loc>
+    <loc>https://jose-villegas.github.io/categories/games/</loc>
     <lastmod>2020-07-20T17:26:11-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -89,55 +99,19 @@
   </url>
   
   <url>
-    <loc>https://jose-villegas.github.io/categories/graphics/</loc>
-    <lastmod>2020-07-20T17:26:11-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://jose-villegas.github.io/tags/graphics/</loc>
     <lastmod>2020-07-20T17:26:11-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jose-villegas.github.io/tags/imgui/</loc>
-    <lastmod>2020-07-20T17:26:11-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/tags/oglplus/</loc>
+    <loc>https://jose-villegas.github.io/categories/graphics/</loc>
     <lastmod>2020-07-20T17:26:11-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jose-villegas.github.io/tags/opengl/</loc>
-    <lastmod>2020-07-20T17:26:11-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/categories/portfolio/</loc>
-    <lastmod>2020-07-20T17:26:11-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/tags/portfolio/</loc>
-    <lastmod>2020-07-20T17:26:11-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/tags/real-time/</loc>
-    <lastmod>2020-07-20T17:26:11-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/tags/rendering/</loc>
     <lastmod>2020-07-20T17:26:11-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -152,11 +126,6 @@
     <loc>https://jose-villegas.github.io/tags/voxels/</loc>
     <lastmod>2020-07-20T17:26:11-04:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/contact/</loc>
-    <lastmod>2016-11-06T13:00:25+05:30</lastmod>
   </url>
   
 </urlset>
