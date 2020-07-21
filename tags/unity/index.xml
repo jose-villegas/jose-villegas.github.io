@@ -6,45 +6,54 @@
     <description>Recent content in unity on José Villegas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2020 17:26:11 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jan 2018 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://jose-villegas.github.io/tags/unity/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Global Game Jam 2015 - Kidz Solution</title>
-      <link>https://jose-villegas.github.io/post/ggj2015/</link>
-      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
+      <title>Global Game Jam 2018 - Emission</title>
+      <link>https://jose-villegas.github.io/post/ggj2018/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0100</pubDate>
       
-      <guid>https://jose-villegas.github.io/post/ggj2015/</guid>
-      <description>&lt;p&gt;This was my first Global Game Jam, though I had been to game jams before in college. This was a really great experience that ended up with me going for four years consecutively. The idea of making a complete game in just 48 hours was first daunting, but later awesome and completely achievable with good team work and focus.&lt;/p&gt;</description>
+      <guid>https://jose-villegas.github.io/post/ggj2018/</guid>
+      <description>&lt;p&gt;This game is more competitive we were a bit inspired by the Tron franchise visual style. I was already in Chile when making this game so I worked remotely with my friends in Caracas, Venezuela to complete this game. This game was really fun to play.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Global Game Jam 2016 - Kidz Solution</title>
-      <link>https://jose-villegas.github.io/post/ggj2016/</link>
-      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
+      <title>Ollama</title>
+      <link>https://jose-villegas.github.io/post/ollama/</link>
+      <pubDate>Tue, 02 May 2017 00:00:00 +0200</pubDate>
       
-      <guid>https://jose-villegas.github.io/post/ggj2016/</guid>
-      <description>&lt;p&gt;For this game jam we went with a more spooky game. And we wanted to make it multi-player. So we came up with the idea to make a tag game but with some modifications to fit the theme and make it more fun.&lt;/p&gt;</description>
+      <guid>https://jose-villegas.github.io/post/ollama/</guid>
+      <description>&lt;p&gt;For this instance I was asked to create a game, alone, in a single week as part of a test. I ended up making an isometric platform game, you have to complete levels and collect coins along the way. This&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Global Game Jam 2017 - Echo Switch</title>
       <link>https://jose-villegas.github.io/post/ggj2017/</link>
-      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
+      <pubDate>Sun, 29 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>https://jose-villegas.github.io/post/ggj2017/</guid>
       <description>&lt;p&gt;This time we really wanted to do a co-op game. We built the idea around a platform game where you play with your friend, you both co-perate together to advance in the map and defeat enemies.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Global Game Jam 2018 - Emission</title>
-      <link>https://jose-villegas.github.io/post/ggj2018/</link>
-      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
+      <title>Global Game Jam 2016 - Kidz Solution</title>
+      <link>https://jose-villegas.github.io/post/ggj2016/</link>
+      <pubDate>Fri, 29 Jan 2016 00:00:00 +0100</pubDate>
       
-      <guid>https://jose-villegas.github.io/post/ggj2018/</guid>
-      <description>&lt;p&gt;This game is more competitive we were a bit inspired by the Tron franchise visual style. I was already in Chile when making this game so I worked remotely with my friends in Caracas, Venezuela to complete this game. This game was really fun to play.&lt;/p&gt;</description>
+      <guid>https://jose-villegas.github.io/post/ggj2016/</guid>
+      <description>&lt;p&gt;For this game jam we went with a more spooky game. And we wanted to make it multi-player. So we came up with the idea to make a tag game but with some modifications to fit the theme and make it more fun.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Global Game Jam 2015 - Kidz Solution</title>
+      <link>https://jose-villegas.github.io/post/ggj2015/</link>
+      <pubDate>Thu, 29 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/ggj2015/</guid>
+      <description>&lt;p&gt;This was my first Global Game Jam, though I had been to game jams before in college. This was a really great experience that ended up with me going for four years consecutively. The idea of making a complete game in just 48 hours was first daunting, but later awesome and completely achievable with good team work and focus.&lt;/p&gt;</description>
     </item>
     
   </channel>

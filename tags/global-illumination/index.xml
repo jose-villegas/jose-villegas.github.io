@@ -6,7 +6,7 @@
     <description>Recent content in global illumination on José Villegas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2020 17:26:11 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://jose-villegas.github.io/tags/global-illumination/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Deferred Voxel Shading for Real Time Global Illumination</title>
       <link>https://jose-villegas.github.io/post/deferred_voxel_shading/</link>
-      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0200</pubDate>
       
       <guid>https://jose-villegas.github.io/post/deferred_voxel_shading/</guid>
       <description>&lt;p&gt;This was my master thesis for Computer Graphics, eventually I managed to publish a paper for this work.&lt;/p&gt;

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>projects on José Villegas</title>
+    <link>https://jose-villegas.github.io/tags/projects/</link>
+    <description>Recent content in projects on José Villegas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 May 2017 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://jose-villegas.github.io/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ollama</title>
+      <link>https://jose-villegas.github.io/post/ollama/</link>
+      <pubDate>Tue, 02 May 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/ollama/</guid>
+      <description>&lt;p&gt;For this instance I was asked to create a game, alone, in a single week as part of a test. I ended up making an isometric platform game, you have to complete levels and collect coins along the way. This&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,33 +6,60 @@
     <description>Recent content in Tags on José Villegas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2020 17:26:11 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://jose-villegas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>c#</title>
-      <link>https://jose-villegas.github.io/tags/c#/</link>
-      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
-      
-      <guid>https://jose-villegas.github.io/tags/c#/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>c&#43;&#43;</title>
       <link>https://jose-villegas.github.io/tags/c&#43;&#43;/</link>
-      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0200</pubDate>
       
       <guid>https://jose-villegas.github.io/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>global illumination</title>
+      <link>https://jose-villegas.github.io/tags/global-illumination/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/global-illumination/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opengl</title>
+      <link>https://jose-villegas.github.io/tags/opengl/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/opengl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>voxels</title>
+      <link>https://jose-villegas.github.io/tags/voxels/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/voxels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>c#</title>
+      <link>https://jose-villegas.github.io/tags/c#/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/c#/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>fun</title>
       <link>https://jose-villegas.github.io/tags/fun/</link>
-      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0100</pubDate>
       
       <guid>https://jose-villegas.github.io/tags/fun/</guid>
       <description></description>
@@ -41,7 +68,7 @@
     <item>
       <title>gamejams</title>
       <link>https://jose-villegas.github.io/tags/gamejams/</link>
-      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0100</pubDate>
       
       <guid>https://jose-villegas.github.io/tags/gamejams/</guid>
       <description></description>
@@ -50,54 +77,27 @@
     <item>
       <title>games</title>
       <link>https://jose-villegas.github.io/tags/games/</link>
-      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0100</pubDate>
       
       <guid>https://jose-villegas.github.io/tags/games/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>global illumination</title>
-      <link>https://jose-villegas.github.io/tags/global-illumination/</link>
-      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
-      
-      <guid>https://jose-villegas.github.io/tags/global-illumination/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>graphics</title>
-      <link>https://jose-villegas.github.io/tags/graphics/</link>
-      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
-      
-      <guid>https://jose-villegas.github.io/tags/graphics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>opengl</title>
-      <link>https://jose-villegas.github.io/tags/opengl/</link>
-      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
-      
-      <guid>https://jose-villegas.github.io/tags/opengl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>unity</title>
       <link>https://jose-villegas.github.io/tags/unity/</link>
-      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0100</pubDate>
       
       <guid>https://jose-villegas.github.io/tags/unity/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>voxels</title>
-      <link>https://jose-villegas.github.io/tags/voxels/</link>
-      <pubDate>Mon, 20 Jul 2020 17:26:11 -0400</pubDate>
+      <title>projects</title>
+      <link>https://jose-villegas.github.io/tags/projects/</link>
+      <pubDate>Tue, 02 May 2017 00:00:00 +0200</pubDate>
       
-      <guid>https://jose-villegas.github.io/tags/voxels/</guid>
+      <guid>https://jose-villegas.github.io/tags/projects/</guid>
       <description></description>
     </item>
     
