@@ -113,6 +113,15 @@
     </item>
     
     <item>
+      <title>Stereoscopy</title>
+      <link>https://jose-villegas.github.io/post/stereoscopic/</link>
+      <pubDate>Sun, 11 Sep 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/stereoscopic/</guid>
+      <description>&lt;p&gt;Stereoscopy is a technique that enables us to create the illusion of depth for binocular vision. You need special lenses to appreciate the effect. In this college project I implemented a basic rendering engine using C++ with stereoscopy.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Global Game Jam 2016 - Kidz Solution</title>
       <link>https://jose-villegas.github.io/post/ggj2016/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 +0100</pubDate>
@@ -155,6 +164,15 @@
       
       <guid>https://jose-villegas.github.io/post/ggj2015/</guid>
       <description>&lt;p&gt;This was my first Global Game Jam, though I had been to game jams before in college. This was a really great experience that ended up with me going for four years consecutively. The idea of making a complete game in just 48 hours was first daunting, but later awesome and completely achievable with good team work and focus.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Computer Graphics Basic Mapping Techniques</title>
+      <link>https://jose-villegas.github.io/post/firstcg/</link>
+      <pubDate>Thu, 22 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/firstcg/</guid>
+      <description>&lt;p&gt;When I first started to study computer graphics in my college, this was the first assignment, we implemented different real time rendering techniques for this project which included: object selection, translations, rotations and scaling, camera translation and rotation, refraction and reflection, point lights, directional lights, spot lights and shadow mapping.&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -6,10 +6,19 @@
     <description>Recent content in effects on José Villegas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Apr 2015 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 11 Sep 2016 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://jose-villegas.github.io/tags/effects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Stereoscopy</title>
+      <link>https://jose-villegas.github.io/post/stereoscopic/</link>
+      <pubDate>Sun, 11 Sep 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/stereoscopic/</guid>
+      <description>&lt;p&gt;Stereoscopy is a technique that enables us to create the illusion of depth for binocular vision. You need special lenses to appreciate the effect. In this college project I implemented a basic rendering engine using C++ with stereoscopy.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Simple Multi-texture Terrain Rendering</title>
@@ -18,6 +27,15 @@
       
       <guid>https://jose-villegas.github.io/post/terrain/</guid>
       <description>&lt;p&gt;This is a simple implementation of terrain rendering using heighmaps, part of a college assignment. The code has some optimizations such as parallel processing to bake lightmaps and cheap ambient occlusion using the terrain heighmap.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Computer Graphics Basic Mapping Techniques</title>
+      <link>https://jose-villegas.github.io/post/firstcg/</link>
+      <pubDate>Thu, 22 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/firstcg/</guid>
+      <description>&lt;p&gt;When I first started to study computer graphics in my college, this was the first assignment, we implemented different real time rendering techniques for this project which included: object selection, translations, rotations and scaling, camera translation and rotation, refraction and reflection, point lights, directional lights, spot lights and shadow mapping.&lt;/p&gt;</description>
     </item>
     
     <item>
