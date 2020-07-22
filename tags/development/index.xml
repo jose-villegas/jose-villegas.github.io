@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>development on José Villegas</title>
+    <link>https://jose-villegas.github.io/tags/development/</link>
+    <description>Recent content in development on José Villegas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Nov 2016 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://jose-villegas.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spanish Safari</title>
+      <link>https://jose-villegas.github.io/post/spanish_safari/</link>
+      <pubDate>Wed, 30 Nov 2016 00:00:00 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/spanish_safari/</guid>
+      <description>&lt;p&gt;While I was still in college this was my first experience profesionally as a game developer. Living in Caracas at the time I got contacted by a startup called &lt;a href=&#34;https://www.learnsafari.com/&#34;&gt;LearnSafari&lt;/a&gt;, this happened in my last year of college, thanks to the game jams. Spanish Safari is a game or a tool for parents, with the purpose of teaching Spanish to kids in an interactive adventure game.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
