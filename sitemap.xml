@@ -110,35 +110,6 @@
   </url>
   
   <url>
-    <loc>https://jose-villegas.github.io/post/styletransfer/</loc>
-    <lastmod>2017-05-14T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/tags/c&#43;&#43;/</loc>
-    <lastmod>2017-05-14T00:00:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/tags/effects/</loc>
-    <lastmod>2017-05-14T00:00:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/categories/graphics/</loc>
-    <lastmod>2017-05-14T00:00:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/tags/opengl/</loc>
-    <lastmod>2017-05-14T00:00:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://jose-villegas.github.io/post/ollama/</loc>
     <lastmod>2017-05-02T00:00:00+02:00</lastmod>
   </url>
@@ -150,6 +121,12 @@
   
   <url>
     <loc>https://jose-villegas.github.io/tags/effect/</loc>
+    <lastmod>2017-04-18T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/categories/graphics/</loc>
     <lastmod>2017-04-18T00:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -171,7 +148,19 @@
   </url>
   
   <url>
+    <loc>https://jose-villegas.github.io/tags/c&#43;&#43;/</loc>
+    <lastmod>2017-01-18T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jose-villegas.github.io/tags/global-illumination/</loc>
+    <lastmod>2017-01-18T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/tags/opengl/</loc>
     <lastmod>2017-01-18T00:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -205,6 +194,17 @@
   <url>
     <loc>https://jose-villegas.github.io/post/simpleraytracer/</loc>
     <lastmod>2014-12-03T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/post/styletransfer/</loc>
+    <lastmod>2014-06-17T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/tags/effects/</loc>
+    <lastmod>2014-06-17T00:00:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

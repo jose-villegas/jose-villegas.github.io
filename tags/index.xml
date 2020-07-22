@@ -66,33 +66,6 @@
     </item>
     
     <item>
-      <title>c&#43;&#43;</title>
-      <link>https://jose-villegas.github.io/tags/c&#43;&#43;/</link>
-      <pubDate>Sun, 14 May 2017 00:00:00 +0200</pubDate>
-      
-      <guid>https://jose-villegas.github.io/tags/c&#43;&#43;/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>effects</title>
-      <link>https://jose-villegas.github.io/tags/effects/</link>
-      <pubDate>Sun, 14 May 2017 00:00:00 +0200</pubDate>
-      
-      <guid>https://jose-villegas.github.io/tags/effects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>opengl</title>
-      <link>https://jose-villegas.github.io/tags/opengl/</link>
-      <pubDate>Sun, 14 May 2017 00:00:00 +0200</pubDate>
-      
-      <guid>https://jose-villegas.github.io/tags/opengl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>effect</title>
       <link>https://jose-villegas.github.io/tags/effect/</link>
       <pubDate>Tue, 18 Apr 2017 00:00:00 +0200</pubDate>
@@ -111,6 +84,15 @@
     </item>
     
     <item>
+      <title>c&#43;&#43;</title>
+      <link>https://jose-villegas.github.io/tags/c&#43;&#43;/</link>
+      <pubDate>Wed, 18 Jan 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>global illumination</title>
       <link>https://jose-villegas.github.io/tags/global-illumination/</link>
       <pubDate>Wed, 18 Jan 2017 00:00:00 +0200</pubDate>
@@ -120,11 +102,29 @@
     </item>
     
     <item>
+      <title>opengl</title>
+      <link>https://jose-villegas.github.io/tags/opengl/</link>
+      <pubDate>Wed, 18 Jan 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/opengl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>voxels</title>
       <link>https://jose-villegas.github.io/tags/voxels/</link>
       <pubDate>Wed, 18 Jan 2017 00:00:00 +0200</pubDate>
       
       <guid>https://jose-villegas.github.io/tags/voxels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>effects</title>
+      <link>https://jose-villegas.github.io/tags/effects/</link>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/effects/</guid>
       <description></description>
     </item>
     

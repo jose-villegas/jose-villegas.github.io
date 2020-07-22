@@ -6,7 +6,7 @@
     <description>Recent content in effects on José Villegas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 May 2017 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jun 2014 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://jose-villegas.github.io/tags/effects/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Volume Rendering with Style Transfer Function</title>
       <link>https://jose-villegas.github.io/post/styletransfer/</link>
-      <pubDate>Sun, 14 May 2017 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0200</pubDate>
       
       <guid>https://jose-villegas.github.io/post/styletransfer/</guid>
       <description>&lt;p&gt;This technique implements style transfer functions for volume rendering. Style transfer is extremely convenient for volume rendering as it adds a really great dimension of realism with little overhead. The technique is based on this &lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.230.9247&amp;amp;rep=rep1&amp;amp;type=pdf&#34;&gt;paper&lt;/a&gt;.&lt;/p&gt;</description>
