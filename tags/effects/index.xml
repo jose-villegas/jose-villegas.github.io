@@ -6,10 +6,28 @@
     <description>Recent content in effects on José Villegas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Sep 2016 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jun 2017 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://jose-villegas.github.io/tags/effects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Simple Multi-texture Terrain Rendering</title>
+      <link>https://jose-villegas.github.io/post/terrain/</link>
+      <pubDate>Mon, 19 Jun 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/terrain/</guid>
+      <description>&lt;p&gt;This is a simple implementation of terrain rendering using heighmaps, part of a college assignment. The code has some optimizations such as parallel processing to bake lightmaps and cheap ambient occlusion using the terrain heighmap.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Volume Rendering with Style Transfer Function</title>
+      <link>https://jose-villegas.github.io/post/styletransfer/</link>
+      <pubDate>Sun, 14 May 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/styletransfer/</guid>
+      <description>&lt;p&gt;This technique implements style transfer functions for volume rendering, part of a college assignment. Style transfer is extremely convenient for volume rendering as it adds a really great dimension of realism with little overhead. The technique is based on this &lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.230.9247&amp;amp;rep=rep1&amp;amp;type=pdf&#34;&gt;paper&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Stereoscopy</title>
@@ -21,21 +39,12 @@
     </item>
     
     <item>
-      <title>Simple Multi-texture Terrain Rendering</title>
-      <link>https://jose-villegas.github.io/post/terrain/</link>
-      <pubDate>Fri, 10 Apr 2015 00:00:00 +0200</pubDate>
-      
-      <guid>https://jose-villegas.github.io/post/terrain/</guid>
-      <description>&lt;p&gt;This is a simple implementation of terrain rendering using heighmaps, part of a college assignment. The code has some optimizations such as parallel processing to bake lightmaps and cheap ambient occlusion using the terrain heighmap.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Computer Graphics Basic Mapping Techniques</title>
       <link>https://jose-villegas.github.io/post/firstcg/</link>
-      <pubDate>Thu, 22 Jan 2015 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 03 Dec 2014 00:00:00 +0100</pubDate>
       
       <guid>https://jose-villegas.github.io/post/firstcg/</guid>
-      <description>&lt;p&gt;When I first started to study computer graphics in my college, this was the first assignment, we implemented different real time rendering techniques for this project which included: object selection, translations, rotations and scaling, camera translation and rotation, refraction and reflection, point lights, directional lights, spot lights and shadow mapping.&lt;/p&gt;</description>
+      <description>&lt;p&gt;When I first started to study computer graphics in my college, this was one of the first assignments, we implemented different real time rendering techniques for this project which included: object selection, translations, rotations and scaling, camera translation and rotation, refraction and reflection, point lights, directional lights, spot lights and shadow mapping.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -45,15 +54,6 @@
       
       <guid>https://jose-villegas.github.io/post/asciiwebcam/</guid>
       <description>&lt;p&gt;This program implements an ASCII art filter for your webcam. This was a small project made during college as an exercise of parallel processing. Getting this effect to run smoothly without parallel processing was impossible.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Volume Rendering with Style Transfer Function</title>
-      <link>https://jose-villegas.github.io/post/styletransfer/</link>
-      <pubDate>Tue, 17 Jun 2014 00:00:00 +0200</pubDate>
-      
-      <guid>https://jose-villegas.github.io/post/styletransfer/</guid>
-      <description>&lt;p&gt;This technique implements style transfer functions for volume rendering, part of a college assignment. Style transfer is extremely convenient for volume rendering as it adds a really great dimension of realism with little overhead. The technique is based on this &lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.230.9247&amp;amp;rep=rep1&amp;amp;type=pdf&#34;&gt;paper&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>
