@@ -76,6 +76,17 @@
     </item>
     
     <item>
+      <title>Deferred Voxel Shading for Real Time Global Illumination</title>
+      <link>https://jose-villegas.github.io/post/deferred_voxel_shading/</link>
+      <pubDate>Thu, 18 Jan 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/deferred_voxel_shading/</guid>
+      <description>&lt;p&gt;Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simpliﬁed version of the outgoing radiance and the scene stored in voxels.&lt;/p&gt;
+
+&lt;p&gt;This was my master thesis for computer graphics, I also published a paper about this technique.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Ollama - A Game In Just A Week</title>
       <link>https://jose-villegas.github.io/post/ollama/</link>
       <pubDate>Tue, 02 May 2017 00:00:00 +0200</pubDate>
@@ -103,17 +114,6 @@
     </item>
     
     <item>
-      <title>Deferred Voxel Shading for Real Time Global Illumination</title>
-      <link>https://jose-villegas.github.io/post/deferred_voxel_shading/</link>
-      <pubDate>Wed, 18 Jan 2017 00:00:00 +0200</pubDate>
-      
-      <guid>https://jose-villegas.github.io/post/deferred_voxel_shading/</guid>
-      <description>&lt;p&gt;Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simpliﬁed version of the outgoing radiance and the scene stored in voxels.&lt;/p&gt;
-
-&lt;p&gt;This was my master thesis for computer graphics, I also published a paper about this technique.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Fur Rendering in Unity</title>
       <link>https://jose-villegas.github.io/post/fur_unity/</link>
       <pubDate>Thu, 12 Jan 2017 00:00:00 +0200</pubDate>
@@ -138,6 +138,15 @@
       
       <guid>https://jose-villegas.github.io/post/ggj2016/</guid>
       <description>&lt;p&gt;For this game jam we went with a more spooky game. And we wanted to make it multi-player. So we came up with the idea to make a tag game but with some modifications to fit the theme and make it more fun.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Simple Multi-texture Terrain Rendering</title>
+      <link>https://jose-villegas.github.io/post/terrain/</link>
+      <pubDate>Fri, 10 Apr 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/terrain/</guid>
+      <description>&lt;p&gt;This is a simple implementation of terrain rendering using heighmaps. The code uses parallel processing and other optimizations such as lightmaps baking and cheap ambient occlusion using the terrain heighmap.&lt;/p&gt;</description>
     </item>
     
     <item>
