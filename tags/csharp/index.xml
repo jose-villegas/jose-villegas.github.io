@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>csharp on José Villegas</title>
+    <link>https://jose-villegas.github.io/tags/csharp/</link>
+    <description>Recent content in csharp on José Villegas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Mar 2020 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://jose-villegas.github.io/tags/csharp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Holly&#39;s Home Design: Renovation Dreams</title>
+      <link>https://jose-villegas.github.io/post/hollys_home_design/</link>
+      <pubDate>Sun, 29 Mar 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/hollys_home_design/</guid>
+      <description>&lt;p&gt;Holly&amp;rsquo;s Home Design is a home renovation game developed and published by &lt;a href=&#34;http://www.gamaga.com/&#34;&gt;Gamaga&lt;/a&gt;. In Holly you play the life of a home renovator, in the game you can buy, renovate, design, decorate and sell houses in different towns. The game features realistic 3D environment and tons of decoration and furniture options.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Banana Kong</title>
+      <link>https://jose-villegas.github.io/post/banana_kong/</link>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/banana_kong/</guid>
+      <description>&lt;p&gt;Banana Kong is another game developed by &lt;a href=&#34;http://www.gamaga.com/&#34;&gt;Gamaga&lt;/a&gt;, with more than 100M+ of installs, the game is published by &lt;a href=&#34;https://www.fdg-entertainment.com/&#34;&gt;FDG Entertainment&lt;/a&gt;. Banana Kong is an endless runner platform game, you play as Kong you have to jump, avoid and smash different obstacles in the environment, there are many mechanics that change the way the character moves, it&amp;rsquo;s a really fun game to play.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Low Poly Water in Unity</title>
+      <link>https://jose-villegas.github.io/post/low_poly_water/</link>
+      <pubDate>Tue, 18 Apr 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/low_poly_water/</guid>
+      <description>&lt;p&gt;I wanted to do a small tests with shaders in Unity to simulate water using sum of sines. This technique is well explained here in &lt;a href=&#34;https://developer.nvidia.com/sites/all/modules/custom/gpugems/books/GPUGems/gpugems_ch01.html&#34;&gt;GPU GEMS&lt;/a&gt;. My twist was just using flat shading. The reposity was well received in my &lt;a href=&#34;https://github.com/jose-villegas/LowPolyWater&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Heightmap Generator</title>
+      <link>https://jose-villegas.github.io/post/heightmapgenerator/</link>
+      <pubDate>Sun, 15 Mar 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/heightmapgenerator/</guid>
+      <description>&lt;p&gt;A simple height map generator utizling different noise generation techniques to obtain height maps that can be used for terrain generators or other applications.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Image Processing</title>
+      <link>https://jose-villegas.github.io/post/imageprocessing/</link>
+      <pubDate>Sat, 28 Feb 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/imageprocessing/</guid>
+      <description>&lt;p&gt;This program implements multiple image processing algorithms, such as edge detection, noise reduction, sharpening etc, part of a college assignment.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Global Game Jam 2015 - Kidz Solution</title>
+      <link>https://jose-villegas.github.io/post/ggj2015/</link>
+      <pubDate>Thu, 29 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/ggj2015/</guid>
+      <description>&lt;p&gt;This was my first Global Game Jam, though I had been to game jams before in college. This was a really great experience that ended up with me going for four years consecutively. The idea of making a complete game in just 48 hours was first daunting, but later awesome and completely achievable with good team work and focus.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ASCII Filter for WebCam</title>
+      <link>https://jose-villegas.github.io/post/asciiwebcam/</link>
+      <pubDate>Fri, 28 Nov 2014 00:00:00 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/asciiwebcam/</guid>
+      <description>&lt;p&gt;This program implements an ASCII art filter for your webcam. This was a small project made during college as an exercise of parallel processing. Getting this effect to run smoothly without parallel processing was impossible.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

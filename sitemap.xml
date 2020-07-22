@@ -42,7 +42,7 @@
   </url>
   
   <url>
-    <loc>https://jose-villegas.github.io/tags/c#/</loc>
+    <loc>https://jose-villegas.github.io/tags/csharp/</loc>
     <lastmod>2020-03-29T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -85,6 +85,12 @@
   <url>
     <loc>https://jose-villegas.github.io/post/red_crimes/</loc>
     <lastmod>2019-12-30T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/tags/c#/</loc>
+    <lastmod>2019-12-30T00:00:00+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -221,6 +227,11 @@
   <url>
     <loc>https://jose-villegas.github.io/post/simpleraytracer/</loc>
     <lastmod>2014-12-03T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/post/asciiwebcam/</loc>
+    <lastmod>2014-11-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>

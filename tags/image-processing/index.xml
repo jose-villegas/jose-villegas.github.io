@@ -29,5 +29,14 @@
       <description>&lt;p&gt;This program implements multiple image processing algorithms, such as edge detection, noise reduction, sharpening etc, part of a college assignment.&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>ASCII Filter for WebCam</title>
+      <link>https://jose-villegas.github.io/post/asciiwebcam/</link>
+      <pubDate>Fri, 28 Nov 2014 00:00:00 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/asciiwebcam/</guid>
+      <description>&lt;p&gt;This program implements an ASCII art filter for your webcam. This was a small project made during college as an exercise of parallel processing. Getting this effect to run smoothly without parallel processing was impossible.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
