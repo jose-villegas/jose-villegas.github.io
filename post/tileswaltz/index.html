@@ -3,7 +3,7 @@
   <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
- <title>Global Game Jam 2018 - Emission</title>
+ <title>Tile&#39;s Waltz - A game born in quarentine</title>
 
 
 
@@ -131,19 +131,19 @@ if (!doNotTrack) {
           <div class="col-md-10 main-content col-md-offset-1">
             
 
-<div class="post-image" style="background-image: url(https://ggj.s3.amazonaws.com/styles/game_content__wide/games/screenshots/screenshot_1_122.png?itok=n4r-nxeI&amp;timestamp=1517175760)"></div>
+<div class="post-image" style="background-image: url(https://res.cloudinary.com/jose-villegas/image/upload/v1595458281/WebPage/privat.png)"></div>
 <div class="col-md-12 entry">
   <div class="row">
     <div class="col-md-12">
       <div class="entry-meta">
-        Monday, 29 January, 2018
+        Monday, 22 June, 2020
       </div>
     </div>
   </div>
   <div class="row">
     <div class="col-md-12">
       <div class="entry-header">
-       Global Game Jam 2018 - Emission
+       Tile&#39;s Waltz - A game born in quarentine
       </div>
     </div>
   </div>
@@ -163,8 +163,6 @@ if (!doNotTrack) {
         TAGS        
         <div class="entry-tags">
         
-          <a href="/tags/c">c#</a> 
-        
           <a href="/tags/c&#43;&#43;">c&#43;&#43;</a> 
         
           <a href="/tags/csharp">csharp</a> 
@@ -174,8 +172,6 @@ if (!doNotTrack) {
           <a href="/tags/effect">effect</a> 
         
           <a href="/tags/effects">effects</a> 
-        
-          <a href="/tags/fun">fun</a> 
         
           <a href="/tags/gamejams">gamejams</a> 
         
@@ -198,29 +194,116 @@ if (!doNotTrack) {
     </div>
     <div class="col-md-10">
       <div class="entry-content">
-        <p>This game is more competitive we were a bit inspired by the Tron franchise visual style. I was already in Chile when making this game so I worked remotely with my friends in Caracas, Venezuela to complete this game. This game was really fun to play.</p>
+        <p>Tile&rsquo;s Waltz is a game I started developing during quarantine of the COVID-19 crisis. It&rsquo;s a puzzle game with a focus on memorization, you remove pieces from the level, when that piece is removed other pieces move to take their place, using this mechanic you need to combine 3 or more to get combos or powerful power ups. The game still in-development.</p>
 
-<h1 id="overview">Overview</h1>
+<p>The idea for the game came to me while bored on quarantine, I was watching a necklace my mom bought me when I was a teenager, this necklace is made of little pieces that look like the tiles in the game. So I started to imagine what kind of game I could make with this shape. The game source code can be found <a href="https://github.com/jose-villegas/TilesWaltz">here on my GitHub</a>. The APK releases can be found <a href="https://github.com/jose-villegas/TilesWaltz/releases">here</a></p>
 
-<p>Emission is a quick competitive game, a capture the flag game where you need to grab and deliver the information to a goal point to win. We were aiming for a fun, flashy and competitive experience with simple controls and mechanics that could be learn in seconds. The looks of the game were inspired by Tron (1982 and 2010).</p>
+<p>I was already wanting to have a game idea since I needed to get better at some Unity frameworks, so once I got the core gameplay draft written I started developing the game.</p>
 
-<p>The game was made with Unity, the game jam project page; which has executables and source code can be found <a href="https://globalgamejam.org/2018/games/emission">here</a>.</p>
+<p>In Tile&rsquo;s Waltz you play in a isometric perspective environment with a level made of tiles that are interconnected with each other, verticality is added through the tiles orientation, a tile can be connected to another in the four cardinal directions, but when connected I can also be oriented as going up, down or just staying plain. As seen here:</p>
 
-<p>A video of the gameplay:</p>
+<table class="table">
+<thead>
+<tr>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img src="https://res.cloudinary.com/jose-villegas/image/upload/v1595457147/WebPage/tt.png" style="width: 300px;"/></td>
+</tr>
+</tbody>
+</table>
+
+<p>When you remove a tile from the structure by pressing on it, the structure needs to &ldquo;fill&rdquo; that space again. For this the shortest path algorithm is used, when a tile is removed the shortest path to a &ldquo;leaf&rdquo; tile is found, a &ldquo;leaf&rdquo; tile is a tile that only has one connection. The tiles in this path will move to take the place of the removed tile, the first in the path will take the place of the removed, the second will take the place of the first, the third will take the place of the second and so on; and for the last position a new tile is added. This ends with a lot of possible combinations and ways to move tiles around in a level.</p>
+
+<h2 id="power-ups">Power Ups</h2>
+
+<ul>
+<li>Combine 4 in a straight line:</li>
+</ul>
+
+<p>If you combine 4 in a straight line you get a directional power in the orthogonal direction of that line, when the tile with this power up is clicked, all the tiles in that direction will be removed. It&rsquo;s important to position properly the tile to make the best use of this power.</p>
+
+<table class="table">
+<thead>
+<tr>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img src="https://github.com/jose-villegas/TilesWaltz/raw/master/Media/Animated/dir1.gif" alt="alt text" width="200"></td>
+</tr>
+</tbody>
+</table>
+
+<ul>
+<li>Combine 5 or more tiles:</li>
+</ul>
+
+<p>If you combine 5 of more tiles you get a color power up, when you click the tile with this power up it will the remove all the tiles that have this same color, it&rsquo;s important to look at the map to make the best use of it.</p>
+
+<table class="table">
+<thead>
+<tr>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img src="https://github.com/jose-villegas/TilesWaltz/raw/master/Media/Animated/color1.gif" alt="alt text" width="300"></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="level-editor">Level Editor</h2>
+
+<p>You can make your own levels in this game, it provides a level editor that lets you make your own levels. You can also share your levels with other users, as the levels are converted to a code that can be imported in the game, another option is to use QR codes, the game can read a QR code with the map information and import that map.</p>
+
+<table class="table">
+<thead>
+<tr>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img src="https://github.com/jose-villegas/TilesWaltz/raw/master/Media/Animated/build1.gif" alt="alt text" width="300"></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="current-content">Current Content</h2>
 
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/saLGUAYe7fA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="//www.youtube.com/embed/_tPDQQVZXuU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 
-<p>Some screenshots:</p>
+<p>The game currently contains:</p>
 
-<p><img src="https://ggj.s3.amazonaws.com/styles/game_content__wide/games/screenshots/1_233.png?itok=_KNtaBEd&timestamp=1517168071" style="width: 100%;"/></p>
+<ul>
+<li>13 playable maps.</li>
+<li>Two power ups for bigger combos.</li>
+<li>Level editor</li>
+<li>Sharing and importing through text or QR</li>
+<li>Basic tutorial</li>
+</ul>
 
-<p><img src="https://ggj.s3.amazonaws.com/styles/game_content__wide/games/screenshots/screenshot_4_72.png?itok=Cm7uJ_iq&timestamp=1517175760" style="width: 100%;"/></p>
+<h2 id="in-progress">In Progress</h2>
 
-<p><img src="https://ggj.s3.amazonaws.com/styles/game_content__wide/games/screenshots/screenshot_3_123.png?itok=OBpoYZnJ&timestamp=1517175760" style="width: 100%;"/></p>
+<p>The game stills in development, there are some things that are in progress:</p>
+
+<ul>
+<li>A more intuitive FTUE</li>
+<li>More maps</li>
+<li>Integrate ads</li>
+<li>Integrate localization</li>
+<li>Improve visual effects</li>
+<li>Improve action feedback and user input ease</li>
+<li>Game Font</li>
+<li>Game intro visual improvements</li>
+<li>Level finish visual improvements</li>
+<li>Bug fixing</li>
+</ul>
       </div>
     </div>
   </div>
