@@ -17,7 +17,7 @@
       <pubDate>Fri, 10 Apr 2015 00:00:00 +0200</pubDate>
       
       <guid>https://jose-villegas.github.io/post/terrain/</guid>
-      <description>&lt;p&gt;This is a simple implementation of terrain rendering using heighmaps. The code uses parallel processing and other optimizations such as lightmaps baking and cheap ambient occlusion using the terrain heighmap.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is a simple implementation of terrain rendering using heighmaps, part of a college assignment. The code has some optimizations such as parallel processing to bake lightmaps and cheap ambient occlusion using the terrain heighmap.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Tue, 17 Jun 2014 00:00:00 +0200</pubDate>
       
       <guid>https://jose-villegas.github.io/post/styletransfer/</guid>
-      <description>&lt;p&gt;This technique implements style transfer functions for volume rendering. Style transfer is extremely convenient for volume rendering as it adds a really great dimension of realism with little overhead. The technique is based on this &lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.230.9247&amp;amp;rep=rep1&amp;amp;type=pdf&#34;&gt;paper&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This technique implements style transfer functions for volume rendering, part of a college assignment. Style transfer is extremely convenient for volume rendering as it adds a really great dimension of realism with little overhead. The technique is based on this &lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.230.9247&amp;amp;rep=rep1&amp;amp;type=pdf&#34;&gt;paper&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

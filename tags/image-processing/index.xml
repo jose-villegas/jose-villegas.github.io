@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>image processing on José Villegas</title>
+    <link>https://jose-villegas.github.io/tags/image-processing/</link>
+    <description>Recent content in image processing on José Villegas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Mar 2015 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://jose-villegas.github.io/tags/image-processing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Heightmap Generator</title>
+      <link>https://jose-villegas.github.io/post/heightmapgenerator/</link>
+      <pubDate>Sun, 15 Mar 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/heightmapgenerator/</guid>
+      <description>&lt;p&gt;A simple height map generator utizling different noise generation techniques to obtain height maps that can be used for terrain generators or other applications.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Image Processing</title>
+      <link>https://jose-villegas.github.io/post/imageprocessing/</link>
+      <pubDate>Sat, 28 Feb 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/imageprocessing/</guid>
+      <description>&lt;p&gt;This program implements multiple image processing algorithms, such as edge detection, noise reduction, sharpening etc, part of a college assignment.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
