@@ -36,9 +36,18 @@
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0200</pubDate>
       
       <guid>https://jose-villegas.github.io/post/deferred_voxel_shading/</guid>
-      <description>&lt;p&gt;This was my master thesis for Computer Graphics, eventually I managed to publish a paper for this work.&lt;/p&gt;
+      <description>&lt;p&gt;Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simpliﬁed version of the outgoing radiance and the scene stored in voxels.&lt;/p&gt;
 
-&lt;p&gt;Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simpliﬁed version of the outgoing radiance and the scene stored in voxels.&lt;/p&gt;</description>
+&lt;p&gt;This was my master thesis for computer graphics, I also published a paper about this technique.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Operate Now: Hospital</title>
+      <link>https://jose-villegas.github.io/post/operate_now/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/operate_now/</guid>
+      <description>&lt;p&gt;I moved to Chile to work with &lt;a href=&#34;http://www.gamaga.com/&#34;&gt;Gamaga&lt;/a&gt;, I started with Operate Now: Hospital, a game published by &lt;a href=&#34;https://spilgames.com/&#34;&gt;Spil Games&lt;/a&gt; with more than 45M+ of installs. Operate Now is a hospital simulator, in the game you perform really realistic surgeries and follow a compelling storyline, while you also are in charge of running multiple hospitals, upgrading their departments, hiring and managing their staff and many other interesting mechanics.&lt;/p&gt;</description>
     </item>
     
     <item>
