@@ -22,5 +22,14 @@
 &lt;p&gt;This was my master thesis for computer graphics, I also published a paper about this technique.&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Simple Raytracer</title>
+      <link>https://jose-villegas.github.io/post/simpleraytracer/</link>
+      <pubDate>Wed, 03 Dec 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/simpleraytracer/</guid>
+      <description>&lt;p&gt;This was an extremely simple raytracer I wrote in college for an assignment. The source code can be found &lt;a href=&#34;https://github.com/jose-villegas/Simple-Raytracer&#34;&gt;here on my GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
