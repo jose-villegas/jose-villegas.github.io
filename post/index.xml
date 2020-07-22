@@ -95,6 +95,15 @@
     </item>
     
     <item>
+      <title>Fur Rendering in Unity</title>
+      <link>https://jose-villegas.github.io/post/fur_unity/</link>
+      <pubDate>Thu, 12 Jan 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/fur_unity/</guid>
+      <description>&lt;p&gt;This is a small shader that implements fur rendering in Unity using shell texturing. The technique is well explained on this &lt;a href=&#34;http://hhoppe.com/fur.pdf&#34;&gt;paper&lt;/a&gt;. Though easy to implement it was well received on my &lt;a href=&#34;https://github.com/jose-villegas/FurRendering&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Spanish Safari</title>
       <link>https://jose-villegas.github.io/post/spanish_safari/</link>
       <pubDate>Wed, 30 Nov 2016 00:00:00 +0100</pubDate>
