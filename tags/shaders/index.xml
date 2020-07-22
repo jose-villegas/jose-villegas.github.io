@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shaders on José Villegas</title>
+    <link>https://jose-villegas.github.io/tags/shaders/</link>
+    <description>Recent content in shaders on José Villegas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Apr 2017 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://jose-villegas.github.io/tags/shaders/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Low Poly Water in Unity</title>
+      <link>https://jose-villegas.github.io/post/low_poly_water/</link>
+      <pubDate>Tue, 18 Apr 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/low_poly_water/</guid>
+      <description>&lt;p&gt;I wanted to do a small tests with shaders in Unity to simulate water using sum of sines. This technique is well explained here in &lt;a href=&#34;https://developer.nvidia.com/sites/all/modules/custom/gpugems/books/GPUGems/gpugems_ch01.html&#34;&gt;GPU GEMS&lt;/a&gt;. My twist was just using flat shading. The reposity was well received in my &lt;a href=&#34;https://github.com/jose-villegas/LowPolyWater&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
