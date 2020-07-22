@@ -6,7 +6,7 @@
     <description>Recent content in voxels on José Villegas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jan 2017 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://jose-villegas.github.io/tags/voxels/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Deferred Voxel Shading for Real Time Global Illumination</title>
       <link>https://jose-villegas.github.io/post/deferred_voxel_shading/</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 18 Jan 2017 00:00:00 +0200</pubDate>
       
       <guid>https://jose-villegas.github.io/post/deferred_voxel_shading/</guid>
       <description>&lt;p&gt;Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simpliﬁed version of the outgoing radiance and the scene stored in voxels.&lt;/p&gt;
