@@ -169,8 +169,6 @@ if (!doNotTrack) {
         
           <a href="/tags/development">development</a> 
         
-          <a href="/tags/effect">effect</a> 
-        
           <a href="/tags/effects">effects</a> 
         
           <a href="/tags/gamejams">gamejams</a> 
@@ -194,7 +192,7 @@ if (!doNotTrack) {
     </div>
     <div class="col-md-10">
       <div class="entry-content">
-        <p>Tile&rsquo;s Waltz is a game I started developing alone during quarantine for the COVID-19 crisis. It&rsquo;s a puzzle game with a focus on memorization, you remove pieces from the level, when that piece is removed other pieces move to take their place, using this mechanic you need to combine 3 or more pieces of the same color to get combos or powerful power ups. The game still in-development.</p>
+        <p>Tile&rsquo;s Waltz is a game I started developing alone during quarantine for the COVID-19 crisis. It&rsquo;s a match-3 puzzle game with focus on memorization, you remove pieces from the level, when that piece is removed other pieces move to take their place, using this mechanic you need to combine 3 or more pieces of the same color to get combos or powerful power ups. The game still in-development.</p>
 
 <p>The idea for the game came to me while I was watching a wristband my mom bought me long ago, a bit of quarantine boredom basically, this wristband is made of little pieces that look like the tiles in the game. So I started to imagine what kind of game I could make with this shape. The game source code can be found <a href="https://github.com/jose-villegas/TilesWaltz">here on my GitHub</a>. The APK releases can be found <a href="https://github.com/jose-villegas/TilesWaltz/releases">here</a></p>
 
@@ -216,7 +214,18 @@ if (!doNotTrack) {
 
 <p>When you remove a tile from the structure by pressing on it, the structure needs to &ldquo;fill&rdquo; that space again. For this the shortest path algorithm is used, when a tile is removed the shortest path to a &ldquo;leaf&rdquo; tile is found, a &ldquo;leaf&rdquo; tile is a tile that only has one connection. The tiles in this path will move to take the place of the removed tile, the first in the path will take the place of the removed, the second will take the place of the first, the third will take the place of the second and so on; and for the last position a new tile is added. This ends with a lot of possible combinations and ways to move tiles around in a level.</p>
 
-<p><img src="https://github.com/jose-villegas/TilesWaltz/blob/master/Media/Animated/summary.gif?raw=true" alt="alt text" width="200"></p>
+<table class="table">
+<thead>
+<tr>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img src="https://github.com/jose-villegas/TilesWaltz/blob/master/Media/Animated/summary.gif?raw=true" alt="alt text" width="200">
+</td>
+</tr>
+</tbody>
+</table>
 
 <h2 id="power-ups">Power Ups</h2>
 
