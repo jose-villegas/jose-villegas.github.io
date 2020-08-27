@@ -26,7 +26,7 @@
       <pubDate>Thu, 12 Jan 2017 00:00:00 +0200</pubDate>
       
       <guid>https://jose-villegas.github.io/post/fur_unity/</guid>
-      <description>&lt;p&gt;This is a small shader that implements fur rendering in Unity using shell texturing. The technique is well explained on this &lt;a href=&#34;http://hhoppe.com/fur.pdf&#34;&gt;paper&lt;/a&gt;. Though easy to implement it was well received on my &lt;a href=&#34;https://github.com/jose-villegas/FurRendering&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is a small shader that implements fur rendering in Unity using shell texturing. The technique is well explained on this &lt;a href=&#34;https://research.microsoft.com/~hoppe/fur.pdf&#34;&gt;paper&lt;/a&gt;. Though easy to implement it was well received on my &lt;a href=&#34;https://github.com/jose-villegas/FurRendering&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>
