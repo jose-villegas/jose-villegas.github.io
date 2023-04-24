@@ -3,6 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jose-villegas.github.io/categories/</loc>
+    <lastmod>2022-12-30T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/categories/games/</loc>
+    <lastmod>2022-12-30T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/</loc>
+    <lastmod>2022-12-30T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/post/</loc>
+    <lastmod>2022-12-30T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/post/power_rangers_mighty/</loc>
+    <lastmod>2022-12-30T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/tags/</loc>
+    <lastmod>2022-12-30T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/categories/work/</loc>
+    <lastmod>2022-12-30T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/tags/csharp/</loc>
+    <lastmod>2022-12-30T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/tags/development/</loc>
+    <lastmod>2022-12-30T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/tags/games/</loc>
+    <lastmod>2022-12-30T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/tags/unity/</loc>
+    <lastmod>2022-12-30T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jose-villegas.github.io/about/</loc>
     <lastmod>2020-07-20T17:26:11-04:00</lastmod>
   </url>
@@ -13,73 +78,13 @@
   </url>
   
   <url>
-    <loc>https://jose-villegas.github.io/</loc>
-    <lastmod>2020-07-20T17:26:11-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/categories/</loc>
-    <lastmod>2020-06-22T18:03:51-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/post/</loc>
-    <lastmod>2020-06-22T18:03:51-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/tags/</loc>
-    <lastmod>2020-06-22T18:03:51-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://jose-villegas.github.io/post/tileswaltz/</loc>
     <lastmod>2020-06-22T18:03:51-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jose-villegas.github.io/tags/csharp/</loc>
-    <lastmod>2020-06-22T18:03:51-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/categories/games/</loc>
-    <lastmod>2020-06-22T18:03:51-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/tags/games/</loc>
-    <lastmod>2020-06-22T18:03:51-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/tags/unity/</loc>
-    <lastmod>2020-06-22T18:03:51-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://jose-villegas.github.io/post/hollys_home_design/</loc>
     <lastmod>2020-03-29T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/tags/development/</loc>
-    <lastmod>2020-03-29T00:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/categories/work/</loc>
-    <lastmod>2020-03-29T00:00:00+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -114,6 +119,12 @@
   </url>
   
   <url>
+    <loc>https://jose-villegas.github.io/categories/graphics/</loc>
+    <lastmod>2018-01-18T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jose-villegas.github.io/tags/c&#43;&#43;/</loc>
     <lastmod>2018-01-18T00:00:00+02:00</lastmod>
     <priority>0</priority>
@@ -121,12 +132,6 @@
   
   <url>
     <loc>https://jose-villegas.github.io/tags/global-illumination/</loc>
-    <lastmod>2018-01-18T00:00:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/categories/graphics/</loc>
     <lastmod>2018-01-18T00:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>

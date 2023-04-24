@@ -3,7 +3,7 @@
   <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
- <title>Tile&#39;s Waltz - Quarantine Project</title>
+ <title>Power Rangers: Morphin Legends</title>
 
 
 
@@ -131,19 +131,19 @@ if (!doNotTrack) {
           <div class="col-md-10 main-content col-md-offset-1">
             
 
-<div class="post-image" style="background-image: url(https://res.cloudinary.com/jose-villegas/image/upload/v1599493070/WebPage/mess.png)"></div>
+<div class="post-image" style="background-image: url(https://res.cloudinary.com/jose-villegas/image/upload/v1682361257/maxresdefault_h06lkh.jpg)"></div>
 <div class="col-md-12 entry">
   <div class="row">
     <div class="col-md-12">
       <div class="entry-meta">
-        Monday, 22 June, 2020
+        Friday, 30 December, 2022
       </div>
     </div>
   </div>
   <div class="row">
     <div class="col-md-12">
       <div class="entry-header">
-       Tile&#39;s Waltz - Quarantine Project
+       Power Rangers: Morphin Legends
       </div>
     </div>
   </div>
@@ -192,134 +192,43 @@ if (!doNotTrack) {
     </div>
     <div class="col-md-10">
       <div class="entry-content">
-        <p>Tile&rsquo;s Waltz is a game I started developing alone during quarantine for the COVID-19 crisis. It&rsquo;s a match-3 puzzle game with focus on memorization, you remove pieces from the level, when that piece is removed other pieces move to take their place, you need to combine pieces of the same color to get combos or power ups.</p>
+        <p>After working in Globant for a couple of small projects I finally got to lead a new game from beginning to launch. Power Rangers: Morphin Legends is an action role-playing game, with a complex turn based battle system, beautiful comic-like graphics, and many features that involve user progression. The game was published by NWay Inc.</p>
 
-<p>The idea for the game came to me while I was watching a wristband my mom bought me long ago, a bit of quarantine boredom basically, this wristband is made of little pieces that look like the tiles in the game. So I started to imagine what kind of game I could make with this shape.</p>
+<p>I was requested to join as Lead Frontend Developer after this game was in protyping phase for at least two months. My main role was to design and lead the main system that would feature the core gameplay mechanics of the game. Specially the battle system, as this one involved complex interactions that would happen during battle, making an otherwise standard turn based game into a more complex and engaging experience.</p>
 
-<table class="table">
-<thead>
-<tr>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center"><img src="https://res.cloudinary.com/jose-villegas/image/upload/v1608681898/IMG_20201222_210227_2_hcmmgk.jpg" alt="alt text" width="300"></td>
-</tr>
-</tbody>
-</table>
-
-<p>I was itching to come up with a game idea since I wanted to practice some Unity frameworks, so once I got the core gameplay draft written I started developing the game.</p>
-
-<p>In Tile&rsquo;s Waltz you play in a isometric perspective environment with a level made of tiles that are interconnected with each other, verticality is added through the tiles orientation, a tile can be connected to another in the four cardinal directions, but when connected I can also be oriented as going up, down or just staying plain. As seen here:</p>
-
-<table class="table">
-<thead>
-<tr>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center"><img src="https://res.cloudinary.com/jose-villegas/image/upload/v1595457147/WebPage/tt.png" style="width: 300px;"/></td>
-</tr>
-</tbody>
-</table>
-
-<p>When you remove a tile from the structure by pressing on it, the structure needs to &ldquo;fill&rdquo; that space again. For this the shortest path algorithm is used, when a tile is removed the shortest path to a &ldquo;leaf&rdquo; tile is found, a &ldquo;leaf&rdquo; tile is a tile that only has one connection. The tiles in this path will move to take the place of the removed tile, the first in the path will take the place of the removed, the second will take the place of the first, the third will take the place of the second and so on; and for the last position a new tile is added. This ends with a lot of possible combinations and ways to move tiles around in a level.</p>
-
-<table class="table">
-<thead>
-<tr>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">
-    <video width="100%" autoplay loop>
-    <source src="https://res.cloudinary.com/jose-villegas/video/upload/v1627428464/WebPage/summary.webm" type="video/webm">
-    Your browser does not support the video tag.
-    </video>
-</td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="power-ups">Power Ups</h2>
-
-<ul>
-<li>Combine 4 in a straight line:</li>
-</ul>
-
-<p>If you combine 4 in a straight line you get a directional power in the orthogonal direction of that line, when the tile with this power up is clicked, all the tiles in that direction will be removed. It&rsquo;s important to position properly the tile to make the best use of this power.</p>
-
-<table class="table">
-<thead>
-<tr>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center"><img src="https://res.cloudinary.com/jose-villegas/image/upload/v1627428035/WebPage/dir1.gif" alt="alt text" width="200"></td>
-</tr>
-</tbody>
-</table>
-
-<ul>
-<li>Combine 5 or more tiles:</li>
-</ul>
-
-<p>If you combine 5 of more tiles you get a color power up, when you click the tile with this power up it will the remove all the tiles that have this same color, it&rsquo;s important to look at the map to make the best use of it.</p>
-
-<table class="table">
-<thead>
-<tr>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center"><img src="https://res.cloudinary.com/jose-villegas/image/upload/v1627428035/WebPage/color1.gif" alt="alt text" width="300"></td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="level-editor">Level Editor</h2>
-
-<p>You can make your own levels in this game, it provides a level editor that lets you make your own levels. You can also share your levels with other users, as the levels are converted to a code that can be imported in the game, another option is to use QR codes, the game can read a QR code with the map information and import that map.</p>
-
-<table class="table">
-<thead>
-<tr>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center"><img src="https://res.cloudinary.com/jose-villegas/image/upload/v1627428035/WebPage/build1.gif" alt="alt text" width="300"></td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="content">Content</h2>
+<p>Official Trailer:</p>
 
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/_tPDQQVZXuU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="//www.youtube.com/embed/QYcHgdB5_II" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 
-<p>The game currently contains:</p>
+<p>The game needed to be fully reactive for most of the info displayed on screen, we created our own backend system for this, we built the game UI around Web API calls so the information was always up to date and accurately reflected the user progress and information.</p>
 
-<ul>
-<li>13 playable maps.</li>
-<li>Two Power ups for Bigger Combos.</li>
-<li>Level Editor</li>
-<li>Sharing and Importing through Text or QR</li>
-<li>Basic Tutorial</li>
-<li>Spanish and English Localization</li>
-<li>GPGPS integration and Cloud Save</li>
-</ul>
+<p>As a lead programmer I had to plan features, design the software architecture for many game systems and mechanics, give support and feedback to my coworkers, work along other areas of development and also implement my own features. I was strongly involved into the game UI, graphics and optimizations, battle system, asset delivery systems, backend integration, continuous integration, and many others.</p>
 
-<h2 id="in-progress">In Progress</h2>
+<p>The game was sadly cancelled along technology budget cuts of 2023, this project got axed in that process. The game was meant for <a href="https://play.google.com/store/apps/details?id=com.nway.prheroes&amp;hl=es_CL&amp;gl=US">Google Play</a> and <a href="https://apps.apple.com/us/app/id1593144057?ct=Tap236604">iOS</a></p>
 
-<p>I have taken this as a little hobby project, there are some future improvements and updates I hope to make in the future.</p>
+<p>Gameplay videos and screenshots can still be found around the web</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/o0Z4swkSjqA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<p>Some screenshots of the game:</p>
+
+<p><img src="https://res.cloudinary.com/jose-villegas/image/upload/v1682364355/jonatan-olavarria-throneroom-1_zixtdy.jpg" style="width: 100%;"/></p>
+
+<p><img src="https://res.cloudinary.com/jose-villegas/image/upload/v1682364176/nano-borquez-pre-battle_b6kfrl.jpg" style="width: 100%;"/></p>
+
+<p><img src="https://res.cloudinary.com/jose-villegas/image/upload/v1682364353/jonatan-olavarria-screenshot01-5_jxoq52.jpg" style="width: 100%;"/></p>
+
+<p><img src="https://res.cloudinary.com/jose-villegas/image/upload/v1682364173/nano-borquez-chapter-state-1-bar_swkw4r.jpg" style="width: 100%;"/></p>
+
+<p><img src="https://res.cloudinary.com/jose-villegas/image/upload/v1682364353/jonatan-olavarria-rhinonexustemple-1_rthhaz.jpg" style="width: 100%;"/></p>
       </div>
     </div>
   </div>
