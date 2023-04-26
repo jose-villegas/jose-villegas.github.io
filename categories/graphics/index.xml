@@ -17,9 +17,7 @@
       <pubDate>Thu, 18 Jan 2018 00:00:00 +0200</pubDate>
       
       <guid>https://jose-villegas.github.io/post/deferred_voxel_shading/</guid>
-      <description>&lt;p&gt;Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simpliﬁed version of the outgoing radiance and the scene stored in voxels.&lt;/p&gt;
-
-&lt;p&gt;This was my master thesis for computer graphics, I also published a paper about this technique.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simpliﬁed version of the outgoing radiance and the scene stored in voxels.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -91,7 +89,7 @@
       <pubDate>Wed, 03 Dec 2014 00:00:00 +0100</pubDate>
       
       <guid>https://jose-villegas.github.io/post/firstcg/</guid>
-      <description>&lt;p&gt;When I first started to study computer graphics in my college, this was one of the first assignments, we implemented different real time rendering techniques for this project which included: object selection, translations, rotations and scaling, camera translation and rotation, refraction and reflection, point lights, directional lights, spot lights and shadow mapping.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This was one of my first computer graphics assignments, we implemented different real time rendering techniques in this project, which included: object selection, translations, rotations and scaling, camera translation and rotation, refraction and reflection, point lights, directional lights, spot lights and shadow mapping.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -109,7 +107,7 @@
       <pubDate>Mon, 17 Nov 2014 00:00:00 +0100</pubDate>
       
       <guid>https://jose-villegas.github.io/post/simpleraytracer/</guid>
-      <description>&lt;p&gt;This was an extremely simple raytracer I wrote in college for an assignment. The source code can be found &lt;a href=&#34;https://github.com/jose-villegas/Simple-Raytracer&#34;&gt;here on my GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This was an extremely simple raytracer I wrote in college for an assignment. Here I could learn a lot about the mathematics and physics that makeup light rendering.&lt;/p&gt;</description>
     </item>
     
   </channel>

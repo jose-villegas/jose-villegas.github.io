@@ -62,7 +62,7 @@
       <pubDate>Wed, 03 Dec 2014 00:00:00 +0100</pubDate>
       
       <guid>https://jose-villegas.github.io/post/firstcg/</guid>
-      <description>&lt;p&gt;When I first started to study computer graphics in my college, this was one of the first assignments, we implemented different real time rendering techniques for this project which included: object selection, translations, rotations and scaling, camera translation and rotation, refraction and reflection, point lights, directional lights, spot lights and shadow mapping.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This was one of my first computer graphics assignments, we implemented different real time rendering techniques in this project, which included: object selection, translations, rotations and scaling, camera translation and rotation, refraction and reflection, point lights, directional lights, spot lights and shadow mapping.&lt;/p&gt;</description>
     </item>
     
     <item>
