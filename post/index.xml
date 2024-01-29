@@ -156,7 +156,7 @@
     </item>
     
     <item>
-      <title>Global Game Jam 2016 - Kidz Solution</title>
+      <title>Global Game Jam 2016 - The Haunt</title>
       <link>https://jose-villegas.github.io/post/ggj2016/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 +0100</pubDate>
       
@@ -179,7 +179,7 @@
       <pubDate>Sat, 28 Feb 2015 00:00:00 +0100</pubDate>
       
       <guid>https://jose-villegas.github.io/post/imageprocessing/</guid>
-      <description>&lt;p&gt;This program implements multiple image processing algorithms, such as edge detection, noise reduction, sharpening etc, part of a college assignment.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This program implements multiple image processing algorithms, such as edge detection, noise reduction, sharpening, morphological operations, etc, part of a college assignment.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -201,7 +201,7 @@
     </item>
     
     <item>
-      <title>ASCII Filter for WebCam</title>
+      <title>ASCII Filter for WebCam - Parallel Programming</title>
       <link>https://jose-villegas.github.io/post/asciiwebcam/</link>
       <pubDate>Fri, 28 Nov 2014 00:00:00 +0100</pubDate>
       
