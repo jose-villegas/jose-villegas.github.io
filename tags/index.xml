@@ -6,7 +6,7 @@
     <description>Recent content in Tags on José Villegas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Dec 2022 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2025 10:14:19 +0100</lastBuildDate>
     
 	<atom:link href="https://jose-villegas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,36 @@
     <item>
       <title>csharp</title>
       <link>https://jose-villegas.github.io/tags/csharp/</link>
-      <pubDate>Fri, 30 Dec 2022 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 28 Jan 2025 10:14:19 +0100</pubDate>
       
       <guid>https://jose-villegas.github.io/tags/csharp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gamejams</title>
+      <link>https://jose-villegas.github.io/tags/gamejams/</link>
+      <pubDate>Tue, 28 Jan 2025 10:14:19 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/gamejams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>games</title>
+      <link>https://jose-villegas.github.io/tags/games/</link>
+      <pubDate>Tue, 28 Jan 2025 10:14:19 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/games/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unity</title>
+      <link>https://jose-villegas.github.io/tags/unity/</link>
+      <pubDate>Tue, 28 Jan 2025 10:14:19 +0100</pubDate>
+      
+      <guid>https://jose-villegas.github.io/tags/unity/</guid>
       <description></description>
     </item>
     
@@ -26,33 +53,6 @@
       <pubDate>Fri, 30 Dec 2022 00:00:00 +0100</pubDate>
       
       <guid>https://jose-villegas.github.io/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>games</title>
-      <link>https://jose-villegas.github.io/tags/games/</link>
-      <pubDate>Fri, 30 Dec 2022 00:00:00 +0100</pubDate>
-      
-      <guid>https://jose-villegas.github.io/tags/games/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>unity</title>
-      <link>https://jose-villegas.github.io/tags/unity/</link>
-      <pubDate>Fri, 30 Dec 2022 00:00:00 +0100</pubDate>
-      
-      <guid>https://jose-villegas.github.io/tags/unity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gamejams</title>
-      <link>https://jose-villegas.github.io/tags/gamejams/</link>
-      <pubDate>Mon, 29 Jan 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://jose-villegas.github.io/tags/gamejams/</guid>
       <description></description>
     </item>
     
