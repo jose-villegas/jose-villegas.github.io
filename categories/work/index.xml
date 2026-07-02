@@ -6,10 +6,19 @@
     <description>Recent content in Work on José Villegas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Dec 2023 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://jose-villegas.github.io/categories/work/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Merge Mansion</title>
+      <link>https://jose-villegas.github.io/post/merge_mansion/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/merge_mansion/</guid>
+      <description>&lt;p&gt;I moved to Berlin to join &lt;a href=&#34;https://metacoregames.com/&#34;&gt;Metacore&lt;/a&gt; as a Senior Game Developer, working on Merge Mansion, a merge-and-story puzzle game with a massive live player base and years of established codebase and content pipelines.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Reign Of Titans</title>
@@ -53,7 +62,7 @@
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>https://jose-villegas.github.io/post/red_crimes/</guid>
-      <description>&lt;p&gt;Red Crimes is a crime thriller management game developed by &lt;a href=&#34;https://www.gamaga.com/&#34;&gt;Gamaga&lt;/a&gt; with support of &lt;a href=&#34;www.investigationdiscovery.com&#34;&gt;Investigation Discovery&lt;/a&gt;, sadly the game is no longer supported. The game features realistic crime scenes with multiple game mechanics, focused on hidden objects, investigation, staff mangement and a compelling storyline.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Red Crimes is a crime thriller management game developed by &lt;a href=&#34;https://www.gamaga.com/&#34;&gt;Gamaga&lt;/a&gt; with support of &lt;a href=&#34;www.investigationdiscovery.com&#34;&gt;Investigation Discovery&lt;/a&gt;, sadly the game is no longer supported. The game features realistic crime scenes with multiple game mechanics, focused on hidden objects, investigation, staff management and a compelling storyline.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -71,7 +80,7 @@
       <pubDate>Wed, 30 Nov 2016 00:00:00 +0100</pubDate>
       
       <guid>https://jose-villegas.github.io/post/spanish_safari/</guid>
-      <description>&lt;p&gt;While I was still in college this was my first working experience as a game developer. Living in Caracas at the time I got contacted by  &lt;a href=&#34;https://www.learnsafari.com/&#34;&gt;LearnSafari&lt;/a&gt;, thanks game jams! Spanish Safari is a game or a tool for parents, with the purpose of teaching Spanish to kids in an interactive adventure game.&lt;/p&gt;</description>
+      <description>&lt;p&gt;While I was still in college this was my first working experience as a game developer. Living in Caracas at the time I got contacted by &lt;a href=&#34;https://www.learnsafari.com/&#34;&gt;LearnSafari&lt;/a&gt;, thanks game jams! Spanish Safari is a game or a tool for parents, with the purpose of teaching Spanish to kids in an interactive adventure game.&lt;/p&gt;</description>
     </item>
     
   </channel>

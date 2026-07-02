@@ -6,10 +6,19 @@
     <description>Recent content in Posts on José Villegas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Jan 2025 10:14:19 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://jose-villegas.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Merge Mansion</title>
+      <link>https://jose-villegas.github.io/post/merge_mansion/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://jose-villegas.github.io/post/merge_mansion/</guid>
+      <description>&lt;p&gt;I moved to Berlin to join &lt;a href=&#34;https://metacoregames.com/&#34;&gt;Metacore&lt;/a&gt; as a Senior Game Developer, working on Merge Mansion, a merge-and-story puzzle game with a massive live player base and years of established codebase and content pipelines.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Bubble Salvage - Global Game Jam 2025</title>
@@ -46,7 +55,7 @@
       <pubDate>Sat, 22 Aug 2020 18:03:51 -0400</pubDate>
       
       <guid>https://jose-villegas.github.io/post/balloon_party/</guid>
-      <description>&lt;p&gt;Balloon Party is another game I started developing alone during quarantine for the COVID-19 crisis. In this game you throw a cannonball towards a collection of ballons and try to aim for 3 in a row, on success the cannonball gains another bounce as &amp;ldquo;shield&amp;rdquo;, there are also multiple power ups that help along the way. This project was done with the intention of learning the ECS paradigm and Entitas.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Balloon Party is another game I started developing alone during quarantine for the COVID-19 crisis. In this game you throw a cannonball towards a collection of balloons and try to aim for 3 in a row, on success the cannonball gains another bounce as &amp;ldquo;shield&amp;rdquo;, there are also multiple power ups that help along the way. This project was done with the intention of learning the ECS paradigm and Entitas.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -82,7 +91,7 @@
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>https://jose-villegas.github.io/post/red_crimes/</guid>
-      <description>&lt;p&gt;Red Crimes is a crime thriller management game developed by &lt;a href=&#34;https://www.gamaga.com/&#34;&gt;Gamaga&lt;/a&gt; with support of &lt;a href=&#34;www.investigationdiscovery.com&#34;&gt;Investigation Discovery&lt;/a&gt;, sadly the game is no longer supported. The game features realistic crime scenes with multiple game mechanics, focused on hidden objects, investigation, staff mangement and a compelling storyline.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Red Crimes is a crime thriller management game developed by &lt;a href=&#34;https://www.gamaga.com/&#34;&gt;Gamaga&lt;/a&gt; with support of &lt;a href=&#34;www.investigationdiscovery.com&#34;&gt;Investigation Discovery&lt;/a&gt;, sadly the game is no longer supported. The game features realistic crime scenes with multiple game mechanics, focused on hidden objects, investigation, staff management and a compelling storyline.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -109,7 +118,7 @@
       <pubDate>Thu, 18 Jan 2018 00:00:00 +0200</pubDate>
       
       <guid>https://jose-villegas.github.io/post/deferred_voxel_shading/</guid>
-      <description>&lt;p&gt;Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simpliﬁed version of the outgoing radiance and the scene stored in voxels.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simplified version of the outgoing radiance and the scene stored in voxels.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -118,7 +127,7 @@
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0200</pubDate>
       
       <guid>https://jose-villegas.github.io/post/terrain/</guid>
-      <description>&lt;p&gt;This is a simple implementation of terrain rendering using heighmaps, part of a college assignment. The code has some optimizations such as parallel processing to bake lightmaps and cheap ambient occlusion using the terrain heighmap.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is a simple implementation of terrain rendering using heightmaps, part of a college assignment. The code has some optimizations such as parallel processing to bake lightmaps and cheap ambient occlusion using the terrain heightmap.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -145,7 +154,7 @@
       <pubDate>Tue, 18 Apr 2017 00:00:00 +0200</pubDate>
       
       <guid>https://jose-villegas.github.io/post/low_poly_water/</guid>
-      <description>&lt;p&gt;I wanted to do a small tests with shaders in Unity to simulate water using sum of sines. This technique is well explained here in &lt;a href=&#34;https://developer.nvidia.com/sites/all/modules/custom/gpugems/books/GPUGems/gpugems_ch01.html&#34;&gt;GPU GEMS&lt;/a&gt;. My twist was just using flat shading. The reposity was well received in my &lt;a href=&#34;https://github.com/jose-villegas/LowPolyWater&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I wanted to do a small test with shaders in Unity to simulate water using sum of sines. This technique is well explained here in &lt;a href=&#34;https://developer.nvidia.com/sites/all/modules/custom/gpugems/books/GPUGems/gpugems_ch01.html&#34;&gt;GPU GEMS&lt;/a&gt;. My twist was just using flat shading. The repository was well received in my &lt;a href=&#34;https://github.com/jose-villegas/LowPolyWater&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -172,7 +181,7 @@
       <pubDate>Wed, 30 Nov 2016 00:00:00 +0100</pubDate>
       
       <guid>https://jose-villegas.github.io/post/spanish_safari/</guid>
-      <description>&lt;p&gt;While I was still in college this was my first working experience as a game developer. Living in Caracas at the time I got contacted by  &lt;a href=&#34;https://www.learnsafari.com/&#34;&gt;LearnSafari&lt;/a&gt;, thanks game jams! Spanish Safari is a game or a tool for parents, with the purpose of teaching Spanish to kids in an interactive adventure game.&lt;/p&gt;</description>
+      <description>&lt;p&gt;While I was still in college this was my first working experience as a game developer. Living in Caracas at the time I got contacted by &lt;a href=&#34;https://www.learnsafari.com/&#34;&gt;LearnSafari&lt;/a&gt;, thanks game jams! Spanish Safari is a game or a tool for parents, with the purpose of teaching Spanish to kids in an interactive adventure game.&lt;/p&gt;</description>
     </item>
     
     <item>

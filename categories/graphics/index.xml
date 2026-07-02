@@ -17,7 +17,7 @@
       <pubDate>Thu, 18 Jan 2018 00:00:00 +0200</pubDate>
       
       <guid>https://jose-villegas.github.io/post/deferred_voxel_shading/</guid>
-      <description>&lt;p&gt;Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simpliﬁed version of the outgoing radiance and the scene stored in voxels.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simplified version of the outgoing radiance and the scene stored in voxels.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0200</pubDate>
       
       <guid>https://jose-villegas.github.io/post/terrain/</guid>
-      <description>&lt;p&gt;This is a simple implementation of terrain rendering using heighmaps, part of a college assignment. The code has some optimizations such as parallel processing to bake lightmaps and cheap ambient occlusion using the terrain heighmap.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is a simple implementation of terrain rendering using heightmaps, part of a college assignment. The code has some optimizations such as parallel processing to bake lightmaps and cheap ambient occlusion using the terrain heightmap.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Tue, 18 Apr 2017 00:00:00 +0200</pubDate>
       
       <guid>https://jose-villegas.github.io/post/low_poly_water/</guid>
-      <description>&lt;p&gt;I wanted to do a small tests with shaders in Unity to simulate water using sum of sines. This technique is well explained here in &lt;a href=&#34;https://developer.nvidia.com/sites/all/modules/custom/gpugems/books/GPUGems/gpugems_ch01.html&#34;&gt;GPU GEMS&lt;/a&gt;. My twist was just using flat shading. The reposity was well received in my &lt;a href=&#34;https://github.com/jose-villegas/LowPolyWater&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I wanted to do a small test with shaders in Unity to simulate water using sum of sines. This technique is well explained here in &lt;a href=&#34;https://developer.nvidia.com/sites/all/modules/custom/gpugems/books/GPUGems/gpugems_ch01.html&#34;&gt;GPU GEMS&lt;/a&gt;. My twist was just using flat shading. The repository was well received in my &lt;a href=&#34;https://github.com/jose-villegas/LowPolyWater&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>

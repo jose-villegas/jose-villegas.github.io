@@ -190,7 +190,7 @@
     </div>
     <div class="col-md-10">
       <div class="entry-content">
-        <p>Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simpliﬁed version of the outgoing radiance and the scene stored in voxels.</p>
+        <p>Computing indirect illumination is a challenging and complex problem for real-time rendering in 3D applications. This global illumination approach computes indirect lighting in real time utilizing a simplified version of the outgoing radiance and the scene stored in voxels.</p>
 
 <h1 id="table-of-contents">Table of Contents</h1>
 
@@ -254,7 +254,7 @@
 
 <h2 id="1-voxelization">1. Voxelization</h2>
 
-<p>The first step is to voxelize the scene, our implemention voxelizes scene albedo, normal and emission to approximate emissive materials. For this conservative voxelization and atomic operations on 3D textures are used as described <a href="https://www.seas.upenn.edu/~pcozzi/OpenGLInsights/OpenGLInsights-SparseVoxelization.pdf">here</a>.</p>
+<p>The first step is to voxelize the scene, our implementation voxelizes scene albedo, normal and emission to approximate emissive materials. For this conservative voxelization and atomic operations on 3D textures are used as described <a href="https://www.seas.upenn.edu/~pcozzi/OpenGLInsights/OpenGLInsights-SparseVoxelization.pdf">here</a>.</p>
 
 <pre><code class="language-c">...
 layout(binding = 0, r32ui) uniform volatile coherent uimage3D voxelAlbedo;
@@ -351,7 +351,7 @@ imageAtomicRGBA8Avg(voxelEmission, position, emissive);
 
 <h3 id="2-1-normal-weighted-attenuation">2.1. Normal-Weighted Attenuation</h3>
 
-<p>A disvantage of this technique is the loss of precision averaging all the geometry normals within a voxel. The resulting averaged normal may end up pointing towards a non-convenient direction. This problem is notable when the normal vectors within the space of a voxel are uneven:</p>
+<p>A disadvantage of this technique is the loss of precision averaging all the geometry normals within a voxel. The resulting averaged normal may end up pointing towards a non-convenient direction. This problem is notable when the normal vectors within the space of a voxel are uneven:</p>
 
 <p><center></p>
 
@@ -359,8 +359,7 @@ imageAtomicRGBA8Avg(voxelEmission, position, emissive);
 
 <p></center></p>
 
-<p>To reduce this issue our proposal utilizes a normal-weighted attenuation, where first the normal attenuation is calculated per every face of the voxel as follows:
-To reduce this issue our proposal utilizes a normal-weighted attenuation, where first the normal attenuation is calculated per every face of the voxel as follows:</p>
+<p>To reduce this issue our proposal utilizes a normal-weighted attenuation, where first the normal attenuation is calculated per every face of the voxel as follows:</p>
 
 <p>\begin{equation}
 D_{x,y,z} = (\hat{i}\cdot\Psi, \hat{j}\cdot\Psi, \hat{k}\cdot\Psi)
@@ -420,8 +419,7 @@ where \(L_i\) is the light source intensity, \(\rho\) the voxel albedo, \(N\) th
 
 <p>The classic shadow mapping or alike techniques can be used to compute the voxels occlusion. The position of the voxel is projected in light space and the depth of the projected point is compared with the stored depth from the shadow map to determine if the voxel is occluded.</p>
 
-<p>Our proposal also computes occlusion using raycasting within a volume. Any of the resulting volumes from the voxelization process can be used since the algorithm only needs to determine if a voxel exists at a certain position. To determine occlusion of a voxel, a ray is traced from the position of voxel in the direction of the light, the volume is sampled to determine if at the position of the ray there is a voxel, if this condition is true then the voxel is occluded.
-Our proposal also computes occlusion using raycasting within a volume. Any of the resulting volumes from the voxelization process can be used since the algorithm only needs to determine if a voxel exists at a certain position. To determine occlusion of a voxel, a ray is traced from the position of voxel in the direction of the light, the volume is sampled to determine if at the position of the ray there is a voxel, if this condition is true then the voxel is occluded.</p>
+<p>Our proposal also computes occlusion using raycasting within a volume. Any of the resulting volumes from the voxelization process can be used since the algorithm only needs to determine if a voxel exists at a certain position. To determine occlusion of a voxel, a ray is traced from the position of voxel in the direction of the light, the volume is sampled to determine if at the position of the ray there is a voxel, if this condition is true then the voxel is occluded.</p>
 
 <h4 id="2-2-1-soft-voxel-shadows">2.2.1. Soft Voxel Shadows</h4>
 
@@ -477,7 +475,7 @@ Our proposal also computes occlusion using raycasting within a volume. Any of th
 
 <h2 id="4-voxel-cone-tracing">4. Voxel Cone Tracing</h2>
 
-<p>Voxel cone tracing is similar to ray marching, the cone advances a certain length every step, except that the sampling volume increases along the diameter of the cone. The mipmap levels in the directional volumes are used to approximate the expansion of the sampling volume during the cone trace, to ensure smooth variation between samples quadrilinear interpolation is used which is natively supported with graphics hardware for 3D textures. This step is done in the fragment shader as a screenspace effect, a deferred rendering backend is needed, though voxel cone tracing can be done in forward rendering regardless, it would be extremely inneficient and expensive.</p>
+<p>Voxel cone tracing is similar to ray marching, the cone advances a certain length every step, except that the sampling volume increases along the diameter of the cone. The mipmap levels in the directional volumes are used to approximate the expansion of the sampling volume during the cone trace, to ensure smooth variation between samples quadrilinear interpolation is used which is natively supported with graphics hardware for 3D textures. This step is done in the fragment shader as a screenspace effect, a deferred rendering backend is needed, though voxel cone tracing can be done in forward rendering regardless, it would be extremely inefficient and expensive.</p>
 
 <p>The shape of the cone is meant to exploit the spatial and directional coherence of the many rays packed within the space of a cone. This behavior is used in many approaches such as packet ray-tracing.</p>
 
@@ -775,11 +773,11 @@ Our proposal also computes occlusion using raycasting within a volume. Any of th
 
 <h3 id="optimizations">Optimizations</h3>
 
-<p>In our implementation the dynamic update can be set to update at a given number of frames or on demand, a simple optimization for example is to update each 5~3 frames, this can easily give results over 60FPS for most scenes with little to zero notable difference.</p>
+<p>In our implementation the dynamic update can be set to update at a given number of frames or on demand, a simple optimization for example is to update each 3~5 frames, this can easily give results over 60FPS for most scenes with little to zero notable difference.</p>
 
-<p>Since the lighting step is separate from the voxelization step, revoxelization is only truly needed when objects move within the scene. For changes that only involve lighting revoxelization is unnecesary.</p>
+<p>Since the lighting step is separate from the voxelization step, revoxelization is only truly needed when objects move within the scene. For changes that only involve lighting revoxelization is unnecessary.</p>
 
-<p>One optimization to consider that wasn&rsquo;t implemented in our application is to separate the indirect lighting calculation from voxel cone tracing at a lower resolution. The higher the resolution the more surface points that need to be cone traced since each pixel represents a position in scene. A disvantage of doing this is that it creates some notable artifacts, though they can be somewhat reduced through clever use of screen-space techniques.</p>
+<p>One optimization to consider that wasn&rsquo;t implemented in our application is to separate the indirect lighting calculation from voxel cone tracing at a lower resolution. The higher the resolution the more surface points that need to be cone traced since each pixel represents a position in scene. A disadvantage of doing this is that it creates some notable artifacts, though they can be somewhat reduced through clever use of screen-space techniques.</p>
 
 <h2 id="show-off">Show Off</h2>
 

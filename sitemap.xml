@@ -3,44 +3,73 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jose-villegas.github.io/post/ggj2025/</loc>
-    <lastmod>2025-01-28T10:14:19+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jose-villegas.github.io/categories/</loc>
-    <lastmod>2025-01-28T10:14:19+01:00</lastmod>
+    <lastmod>2025-08-01T00:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jose-villegas.github.io/categories/games/</loc>
-    <lastmod>2025-01-28T10:14:19+01:00</lastmod>
+    <lastmod>2025-08-01T00:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jose-villegas.github.io/</loc>
-    <lastmod>2025-01-28T10:14:19+01:00</lastmod>
+    <lastmod>2025-08-01T00:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://jose-villegas.github.io/post/merge_mansion/</loc>
+    <lastmod>2025-08-01T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jose-villegas.github.io/post/</loc>
-    <lastmod>2025-01-28T10:14:19+01:00</lastmod>
+    <lastmod>2025-08-01T00:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jose-villegas.github.io/tags/</loc>
-    <lastmod>2025-01-28T10:14:19+01:00</lastmod>
+    <lastmod>2025-08-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/categories/work/</loc>
+    <lastmod>2025-08-01T00:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jose-villegas.github.io/tags/csharp/</loc>
-    <lastmod>2025-01-28T10:14:19+01:00</lastmod>
+    <lastmod>2025-08-01T00:00:00+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/tags/development/</loc>
+    <lastmod>2025-08-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/tags/games/</loc>
+    <lastmod>2025-08-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/tags/unity/</loc>
+    <lastmod>2025-08-01T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jose-villegas.github.io/post/ggj2025/</loc>
+    <lastmod>2025-01-28T10:14:19+01:00</lastmod>
   </url>
   
   <url>
@@ -50,32 +79,8 @@
   </url>
   
   <url>
-    <loc>https://jose-villegas.github.io/tags/games/</loc>
-    <lastmod>2025-01-28T10:14:19+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/tags/unity/</loc>
-    <lastmod>2025-01-28T10:14:19+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://jose-villegas.github.io/post/reign_of_titans/</loc>
     <lastmod>2023-12-30T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/categories/work/</loc>
-    <lastmod>2023-12-30T00:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jose-villegas.github.io/tags/development/</loc>
-    <lastmod>2023-12-30T00:00:00+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
