@@ -129,7 +129,7 @@
           <div class="col-md-10 main-content col-md-offset-1">
             
 
-<div class="post-image" style="background-image: url(https://github.com/jose-villegas/StyleTransferFunction/blob/master/screenshots/2.png?raw=true)"></div>
+<div class="post-image" style="background-image: url(/img/styletransfer/banner.jpg)"></div>
 <div class="col-md-12 entry">
   <div class="row">
     <div class="col-md-12">
@@ -190,21 +190,34 @@
     </div>
     <div class="col-md-10">
       <div class="entry-content">
-        <p>This technique implements style transfer functions for volume rendering, part of a college assignment. Style transfer is extremely convenient for volume rendering as it adds a really great dimension of realism with little overhead. The technique is based on this <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.230.9247&amp;rep=rep1&amp;type=pdf">paper</a>.</p>
+        <p>An interactive volume renderer where style transfer functions decide how each part of a scan looks. Every density range gets a lit sphere image, a &ldquo;style&rdquo;, along with its color and opacity, so bone, skin or leaves each get their own material. The volume lights itself with soft shadows, ambient occlusion and one bounce of indirect light. The technique is based on this <a href="https://www.cg.tuwien.ac.at/research/publications/2007/bruckner-2007-STF/">paper</a>.</p>
 
-<p>The technique was implemented using Cinder, ImGui and GLM, to build the project you will need to setup these dependencies, the source code can be found <a href="https://github.com/jose-villegas/StyleTransferFunction">here on my GitHub</a>.</p>
+<p>The source code is <a href="https://github.com/jose-villegas/StyleTransferFunction">on my GitHub</a>, and builds with Visual Studio 2026 with Cinder as a submodule. It is made with C++, OpenGL 4.3 compute and fragment shaders, Cinder, GLM and Dear ImGui. Three volumes come with it: a bonsai, a foot and a skull.</p>
 
-<p>Some screenshots:</p>
+<p><img src="/img/styletransfer/lighting.gif" width="100%"></p>
 
-<p><img src="https://github.com/jose-villegas/StyleTransferFunction/raw/master/screenshots/1.png" width="100%"></p>
+<p><img src="/img/styletransfer/bonsai.jpg" width="100%"></p>
 
-<p><img src="https://github.com/jose-villegas/StyleTransferFunction/raw/master/screenshots/2.png" width="100%"></p>
+<p>Rays are cast through the volume from the front to the back faces of its bounding box, with jittered start positions to hide banding. Each sample is classified by the transfer function and shaded by looking up its normal in the style&rsquo;s lit sphere. Gradients are central differences, smoothed in compute shaders. They keep their magnitude, so shading can tell a surface from the inside of a homogeneous region.</p>
 
-<p><img src="https://github.com/jose-villegas/IllustrativeVolumeRendering/raw/master/FGC_T3/images/screenshot4.png" width="100%"></p>
+<p>The lighting is computed in the volume itself, so anything in front of the light shadows what is behind it, at any depth. Two 3D textures hold it, at half the volume&rsquo;s resolution:</p>
 
-<p><img src="https://github.com/jose-villegas/IllustrativeVolumeRendering/raw/master/FGC_T3/images/screenshot1.png?" width="100%"></p>
+<ul>
+<li>A light volume stores, for every voxel, how much light reaches it through the material between it and the light.</li>
+<li>An ambient volume marches 16 short rays from every voxel. The share that escapes is its ambient occlusion. The lit material the rays run into is reflected back as one bounce of indirect light.</li>
+</ul>
 
-<p><img src="https://github.com/jose-villegas/IllustrativeVolumeRendering/raw/master/FGC_T3/images/screenshot2.png" width="100%"></p>
+<p>Both are rebuilt in compute shaders only when the light, the volume&rsquo;s rotation or the transfer function change, so moving the camera costs nothing extra. Samples on surfaces get Lambert and a normalized Blinn-Phong highlight. Inside homogeneous material, where the gradient is only noise, they scatter light like a medium instead.</p>
+
+<p>The original lighting, Lambert with screen space shadows and ambient occlusion, is still a toggle, for comparison:</p>
+
+<p><img src="/img/styletransfer/compare-skull.jpg" width="100%"></p>
+
+<p><img src="/img/styletransfer/compare-foot.jpg" width="100%"></p>
+
+<p>The transfer function editor places alpha, color and style points over the volume&rsquo;s histogram. Any image can be added as a style, and functions save to files. Every lighting term has its own toggle and strength:</p>
+
+<p><img src="/img/styletransfer/ui.jpg" width="100%"></p>
       </div>
     </div>
   </div>
