@@ -17,7 +17,7 @@
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0200</pubDate>
       
       <guid>https://jose-villegas.github.io/post/terrain/</guid>
-      <description>&lt;p&gt;This is a simple implementation of terrain rendering using heightmaps, part of a college assignment. The code has some optimizations such as parallel processing to bake lightmaps and cheap ambient occlusion using the terrain heightmap.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Terrain rendering from heightmaps generated with libnoise, started as a college assignment. It is textured by height, lit through the day by path-traced lightmaps, and drawn with geomipmapping.&lt;/p&gt;</description>
     </item>
     
     <item>

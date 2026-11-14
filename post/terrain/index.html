@@ -129,7 +129,7 @@
           <div class="col-md-10 main-content col-md-offset-1">
             
 
-<div class="post-image" style="background-image: url(https://res.cloudinary.com/jose-villegas/image/upload/v1731415831/687474703a2f2f692e696d6775722e636f6d2f6f4a454e6d38352e6a7067_l4kszz.jpg)"></div>
+<div class="post-image" style="background-image: url(/img/terrain-rendering/hero.jpg)"></div>
 <div class="col-md-12 entry">
   <div class="row">
     <div class="col-md-12">
@@ -190,11 +190,15 @@
     </div>
     <div class="col-md-10">
       <div class="entry-content">
-        <p>This is a simple implementation of terrain rendering using heightmaps, part of a college assignment. The code has some optimizations such as parallel processing to bake lightmaps and cheap ambient occlusion using the terrain heightmap.</p>
+        <p>Terrain rendering from heightmaps generated with libnoise, started as a college assignment. It is textured by height, lit through the day by path-traced lightmaps, and drawn with geomipmapping.</p>
 
-<p>The source code can be found <a href="https://github.com/jose-villegas/TerrainRendering">here on my GitHub</a>. The project does require a lot of dependencies to compile, it was made using <a href="https://github.com/matus-chochlik/oglplus">OGLPlus</a>, glm, <a href="https://www.boost.org/">boost</a>, <a href="https://freeimage.sourceforge.io/">FreeImage</a>, <a href="https://github.com/ocornut/imgui">ImGui</a> and Parallel Patterns Library <a href="https://docs.microsoft.com/en-us/cpp/parallel/concrt/parallel-patterns-library-ppl?view=vs-2019">(ppl)</a>.</p>
+<p>The source code is <a href="https://github.com/jose-villegas/TerrainRendering">on my GitHub</a>, and builds with Visual Studio 2026 with its dependencies included. The time of the day lighting is baked on the CPU with a path tracer: soft sun shadows, sky light and two diffuse bounces. Optional light shafts march through a height fog over the terrain. Geomipmapping draws each chunk of the terrain at the coarsest level its pixel error allows, stitched to its neighbours so the mesh stays watertight; <a href="https://github.com/jose-villegas/TerrainRendering/blob/master/docs/geomipmapping.md">this page explains how</a>.</p>
 
-<p><img src="https://res.cloudinary.com/jose-villegas/image/upload/v1731415831/687474703a2f2f692e696d6775722e636f6d2f6f4a454e6d38352e6a7067_l4kszz.jpg" width="100%"></p>
+<p><img src="/img/terrain-rendering/hero.gif" width="100%"></p>
+
+<p><img src="/img/terrain-rendering/hero.jpg" width="100%"></p>
+
+<p><img src="/img/terrain-rendering/light-shafts.jpg" width="100%"></p>
       </div>
     </div>
   </div>
